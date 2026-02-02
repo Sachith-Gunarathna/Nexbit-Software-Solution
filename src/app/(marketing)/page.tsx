@@ -18,7 +18,7 @@ const HomePage = async () => {
 
     return (
         <div className="overflow-x-hidden scrollbar-hide size-full">
-            {/* Hero Section */}
+           
             <MaxWidthWrapper>
                 <div className="flex flex-col items-center justify-center w-full text-center bg-gradient-to-t from-background">
                     <AnimationContainer className="flex flex-col items-center justify-center w-full text-center">
@@ -39,7 +39,7 @@ const HomePage = async () => {
                             </span>
                         </h1>
                         <p className="mb-12 text-lg tracking-tight text-muted-foreground md:text-xl text-balance">
-                            Nexbit builds custom business systems for any requirement, helping businesses run faster, smarter, and more efficiently. We design complete digital solutions with supporting websites and mobile apps, all tailored to your exact needs.
+                            Nexcentauri builds custom business systems for any requirement, helping businesses run faster, smarter, and more efficiently. We design complete digital solutions with supporting websites and mobile apps, all tailored to your exact needs.
                             <br className="hidden md:block" />
                             <span className="hidden md:block">Shorten, track, and organize all your links in one place.</span>
                         </p>
@@ -76,7 +76,7 @@ const HomePage = async () => {
                 </div>
             </MaxWidthWrapper >
 
-            {/* Companies Section */}
+           
             <MaxWidthWrapper>
                 <AnimationContainer delay={0.4}>
                     <div className="py-14">
@@ -105,7 +105,7 @@ const HomePage = async () => {
                 </AnimationContainer>
             </MaxWidthWrapper>
 
-            {/* Features Section */}
+           
             <MaxWidthWrapper className="pt-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col w-full items-center lg:items-center justify-center py-8">
@@ -167,9 +167,9 @@ const HomePage = async () => {
             <MaxWidthWrapper className="py-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-center justify-center w-full py-8 max-w-xl mx-auto">
-                        <MagicBadge title="Nexbit Experts" />
+                        <MagicBadge title="Nexcentauri Experts" />
                         <h2 className="text-center text-3xl md:text-5xl font-medium mt-6 text-foreground">
-                            Meet the minds behind Nexbit
+                            Meet the minds behind Nexcentauri
                         </h2>
                         <p className="mt-4 text-center text-lg text-muted-foreground">
                             Our dedicated team of professionals working to deliver high-quality software solutions.
@@ -214,7 +214,7 @@ const HomePage = async () => {
             </MaxWidthWrapper>
 
 
-            {/* Reviews Section */}
+         
             {/* <MaxWidthWrapper className="py-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-center lg:items-center justify-center w-full py-8 max-w-xl mx-auto">
