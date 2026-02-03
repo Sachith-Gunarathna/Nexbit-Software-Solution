@@ -2,10 +2,10 @@ import { Metadata } from "next";
 
 export const generateMetadata = ({
   
-    title = "Nexcentauri Software Solution | Enterprise POS & Cinematic Web Design",
+    title = "Nexcentauri | Enterprise POS & Cinematic Web Design",
     
   
-    description = "Nexcentauri Software Solution specializes in high-performance Java POS systems and immersive Next.js websites. We engineer scalable solutions for your business growth.",
+    description = "Nexcentauri specializes in high-performance Java POS systems and immersive Next.js websites. We engineer scalable solutions for your business growth.",
     
     image = "/thumbnail.png",
     icons = [

@@ -14,10 +14,11 @@ import Providers from "./providers/providers";
 import Sidebar from "./dashboard/sidebar";
 import DashboardNavbar from "./dashboard/dashboard-navbar";
 
-import PricingCards from "./pricing-cards";
+import SupportCards from "./support-cards";
 
 import Blogs from "./blog/blogs";
 
+import Contact from "./contact";
 
 export {
     SignInForm,
@@ -34,7 +35,8 @@ export {
     Sidebar,
     DashboardNavbar,
 
-    PricingCards,
+    SupportCards,
+    Contact,
 
-    Blogs,
+    Blogs,  
 };

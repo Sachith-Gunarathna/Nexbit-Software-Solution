@@ -3,13 +3,10 @@ import Link from "next/link";
 
 const SignUpPage = () => {
     return (
-        <div className="flex flex-col items-start max-w-sm mx-auto h-dvh overflow-hidden pt-4 md:pt-20">
-            <div className="flex items-center w-full py-8 border-b border-border/80">
+        <div className="flex flex-col items-start max-w-sm mx-auto h-dvh overflow-hidden pt-4 md:pt-2">
+            <div className="flex items-center w-full border-b border-border/80">
                 <Link href="/#home" className="flex items-center gap-x-2">
-                    <Icons.logo className="w-6 h-6" />
-                    <h1 className="text-lg font-medium">
-                        Nexbit
-                    </h1>
+                    <Icons.logo className="w-6 h-6" />   
                 </Link>
             </div>
 

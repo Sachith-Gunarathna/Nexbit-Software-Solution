@@ -53,15 +53,12 @@ const Navbar = () => {
                             <Image
                                 src="/logo2.png"
                                 alt="Nexcentauri Logo"
-                                width={200}
-                                height={200}
+                                width={150}
+                                height={150}
                                 className="object-contain"
                                 priority
                             />
 
-                            {/* <span className="text-lg font-bold font-heading !leading-none hidden md:block">
-                                Nexcentauri
-                            </span> */}
                         </Link>
 
                         <NavigationMenu className="hidden lg:flex">
@@ -121,7 +118,7 @@ const Navbar = () => {
 
                     </div>
 
-                    {/* <div className="hidden lg:flex items-center">
+                    <div className="hidden lg:flex items-center">
                         {user ? (
                             <div className="flex items-center">
                                 <Link href="/dashboard" className={buttonVariants({ size: "sm", })}>
@@ -139,7 +136,7 @@ const Navbar = () => {
                                 </Link>
                             </div>
                         )}
-                    </div> */}
+                    </div>
 
                     <MobileNavbar />
 

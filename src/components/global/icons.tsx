@@ -5,10 +5,10 @@ import Image from "next/image";
 export const Icons = {
 
     logo: (props: LucideProps) => (
-        <div className="relative h-30 w-30 overflow-hidden">
+        <div className="relative h-35 w-35 overflow-hidden">
             <Image
                 src="/logo2.png" 
-                alt="Nexbir Logo"
+                alt="Nexcentauri Logo"
                 width={200}
                 height={200}
                 className="object-contain" 
