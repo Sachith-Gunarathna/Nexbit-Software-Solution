@@ -2,13 +2,14 @@ import { AnimationContainer, MaxWidthWrapper } from "@/components";
 import { BentoCard, BentoGrid, CARDS } from "@/components/ui/bento-grid";
 import { BorderBeam } from "@/components/ui/border-beam";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { LampContainer } from "@/components/ui/lamp";
 import MagicBadge from "@/components/ui/magic-badge";
 import MagicCard from "@/components/ui/magic-card";
 import { COMPANIES, PROCESS } from "@/utils";
-import { TEAMMEMBERS } from "@/utils/constants/misc";
+import { REVIEWS, TEAMMEMBERS } from "@/utils/constants/proto";
 import { currentUser } from "@clerk/nextjs/server";
-import { ArrowRightIcon, Facebook, Github, Linkedin } from "lucide-react";
+import { ArrowRightIcon, Facebook, Github, Linkedin, StarIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -213,9 +214,7 @@ const HomePage = async () => {
                 </AnimationContainer>
             </MaxWidthWrapper>
 
-
-         
-            {/* <MaxWidthWrapper className="py-10">
+            <MaxWidthWrapper className="py-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-center lg:items-center justify-center w-full py-8 max-w-xl mx-auto">
                         <MagicBadge title="Our Customers" />
@@ -223,7 +222,7 @@ const HomePage = async () => {
                             What our users are saying
                         </h2>
                         <p className="mt-4 text-center lg:text-center text-lg text-muted-foreground max-w-lg">
-                            Here&apos;s what some of our users have to say about Linkify.
+                            Here&apos;s what some of our users have to say about Nexcentauri.
                         </p>
                     </div>
                 </AnimationContainer>
@@ -313,7 +312,7 @@ const HomePage = async () => {
                         ))}
                     </div>
                 </div>
-            </MaxWidthWrapper> */}
+            </MaxWidthWrapper>
 
 
             <MaxWidthWrapper className="mt-20 max-w-[100vw] overflow-x-hidden scrollbar-hide">

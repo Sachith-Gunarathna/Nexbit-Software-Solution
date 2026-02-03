@@ -38,10 +38,6 @@ export const NAV_LINKS = [
             },
         ],
     },
-    // {
-    //     title: "Pricing",
-    //     href: "/pricing",
-    // },
     {
         title: "About Us", 
         href: "/about",
@@ -59,7 +55,7 @@ export const NAV_LINKS = [
             {
                 title: "Support", 
                 tagline: "Get technical support for your systems.",
-                href: "/contact",
+                href: "/support",
                 icon: HelpCircleIcon,
             },
         ]

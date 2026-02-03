@@ -114,7 +114,7 @@ const SignUpForm = () => {
     };
 
     return isVerifying ? (
-        <div className="flex flex-col items-start w-full text-start gap-y-6 py-8 px-0.5">
+        <div className="flex flex-col items-start w-full text-start gap-y-5 py-8 px-0.5">
             <h2 className="text-2xl font-semibold">
                 Verify your account
             </h2>
