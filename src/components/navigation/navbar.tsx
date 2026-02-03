@@ -18,6 +18,7 @@ import React, { useEffect, useState } from 'react';
 import MaxWidthWrapper from "../global/max-width-wrapper";
 import MobileNavbar from "./mobile-navbar";
 import AnimationContainer from "../global/animation-container";
+import Image from "next/image";
 
 const Navbar = () => {
 
@@ -48,10 +49,19 @@ const Navbar = () => {
             <AnimationContainer reverse delay={0.1} className="size-full">
                 <MaxWidthWrapper className="flex items-center justify-between">
                     <div className="flex items-center space-x-12">
-                        <Link href="/#home">
-                            <span className="text-lg font-bold font-heading !leading-none">
-                                Nexbit
-                            </span>
+                        <Link href="/#home" className="flex items-center gap-2">
+                            <Image
+                                src="/logo2.png"
+                                alt="Nexcentauri Logo"
+                                width={200}
+                                height={200}
+                                className="object-contain"
+                                priority
+                            />
+
+                            {/* <span className="text-lg font-bold font-heading !leading-none hidden md:block">
+                                Nexcentauri
+                            </span> */}
                         </Link>
 
                         <NavigationMenu className="hidden lg:flex">

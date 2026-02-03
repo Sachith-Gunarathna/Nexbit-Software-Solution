@@ -2,10 +2,10 @@ import { Metadata } from "next";
 
 export const generateMetadata = ({
   
-    title = "Nexbit Software Solution | Enterprise POS & Cinematic Web Design",
+    title = "Nexcentauri Software Solution | Enterprise POS & Cinematic Web Design",
     
   
-    description = "Nexbit Software Solution specializes in high-performance Java POS systems and immersive Next.js websites. We engineer scalable solutions for your business growth.",
+    description = "Nexcentauri Software Solution specializes in high-performance Java POS systems and immersive Next.js websites. We engineer scalable solutions for your business growth.",
     
     image = "/thumbnail.png",
     icons = [
@@ -45,8 +45,7 @@ export const generateMetadata = ({
         title,
         description,
         ...(image && { card: "summary_large_image", images: [image] }),
-        creator: "@nexbir", // පරණ නම අයින් කරලා Nexbir දැම්මා
+        creator: "@nexcentauri", 
     },
-    // metadataBase: new URL(process.env.APP_DOMAIN!),
     ...(noIndex && { robots: { index: false, follow: false } }),
 });
