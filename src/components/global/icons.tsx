@@ -5,11 +5,12 @@ import Image from "next/image";
 export const Icons = {
 
     logo: (props: LucideProps) => (
-        <div className="relative h-20 w-20 overflow-hidden">
+        <div className="relative h-30 w-30 overflow-hidden">
             <Image
-                src="/Nexbit.png" 
+                src="/logo2.png" 
                 alt="Nexbir Logo"
-                fill 
+                width={200}
+                height={200}
                 className="object-contain" 
                 priority
             />

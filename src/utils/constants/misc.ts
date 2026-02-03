@@ -85,7 +85,7 @@ export const TEAMMEMBERS = [
     },
     {
         name: "Sachith Gunarathna",
-        role: "Co-Founder & Lead Software Engineer",
+        role: "Lead Software Engineer",
         description: "Full-stack expert specializing in Java, Next.js, and Cinematic Web Design.",
         image: "/team/sachith-gunarathna.jpg",
         links: {
@@ -107,7 +107,7 @@ export const TEAMMEMBERS = [
     },
     {
         name: "Pandula Bandara",
-        role: "Senior Software Engineer",
+        role: " Software Engineer",
         description: "Full-stack expert specializing in Java, Next.js, and Cinematic Web Design.",
         image: "/team/user.jpg",
         links: {
