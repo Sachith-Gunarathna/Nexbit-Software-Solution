@@ -3,10 +3,10 @@ import Link from "next/link";
 
 const SignInPage = () => {
     return (
-        <div className="flex flex-col items-start max-w-sm mx-auto h-dvh overflow-hidden pt-4 md:pt-10">
+        <div className="flex flex-col items-start max-w-sm mx-auto h-dvh overflow-hidden pt-7 md:pt-14">
             <div className="flex items-center w-full border-b border-border/80">
                 <Link href="/#home" className="flex items-center gap-x-2">
-                    <Icons.logo className="w-6 h-6" />
+                    <Icons.logo className="w-8 h-8" />
                 </Link>
             </div>
             <SignInForm />
