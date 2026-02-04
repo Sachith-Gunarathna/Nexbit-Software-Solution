@@ -9,161 +9,70 @@ const TermsPage = () => {
                     Terms and Conditions
                 </h1>
                 <p className="text-sm mb-2 italic mt-20">
-                    Last updated: 17th June 2024
+                    Last updated: {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
                 </p>
                 <p className="mt-4">
-                    Welcome to Linkify. These terms and conditions outline the rules and regulations for the use of Linkify&apos;s website and services.
+                    Welcome to <strong>NEXCENTAURI</strong>. These terms and conditions outline the rules and regulations for the use of NEXCENTAURI&apos;s website and services.
                 </p>
 
-                <h2 className="text-xl font-medium mt-8">
-                    Acceptance of Terms
+                <h2 className="text-xl font-medium mt-12 text-primary">
+                    1. Promotional Service Period
                 </h2>
-
                 <p className="mt-8 text-muted-foreground">
-                    By accessing and using Linkify, you accept and agree to be bound by these terms and conditions. If you do not agree to these terms, you may not use our website or services.
+                    NEXCENTAURI is currently offering its services with <strong>zero service charges for a period of one (1) year</strong> from the date of engagement. Please note that after the completion of this one-year promotional period, standard service charges and subscription fees will apply as per our updated pricing model.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
-                    Changes to Terms
+                    2. Project Scope and Add-ons
                 </h2>
                 <p className="mt-8 text-muted-foreground">
-                    Linkify reserves the right to modify these terms at any time. We will notify you of any changes by updating the &quot;Last updated&quot; data at the top of this page. You continued use of our website and services after any modifications indicates your acceptance of the new terms.
+                    Each project is initiated based on a predefined scope of work agreed upon by both the client and NEXCENTAURI. If a client requests additional features, functionalities, or modifications that fall outside the initial agreement, these will be treated as <strong>&quot;Add-ons.&quot;</strong> Additional charges will be applicable for all Add-ons based on the complexity and development time required.
+                </p>
+ 
+                <h2 className="text-xl font-medium mt-12">
+                    3. Cancellation and Refund Policy
+                </h2>
+                <p className="mt-8 text-muted-foreground">
+                    Clients may request to halt or terminate a project at any stage. However, NEXCENTAURI operates a <strong>strict no-refund policy</strong> for such instances. Any advance payments, deposits, or milestone payments already made will not be refunded under any circumstances, as these funds are utilized for initial resource allocation and development costs.
+                </p>
+
+                <h2 className="text-xl font-medium mt-12 text-destructive">
+                    4. Payment Terms and Legal Compliance
+                </h2>
+                <p className="mt-8 text-muted-foreground">
+                    Payments must be settled within the agreed timeframe specified in the invoice or project contract. In the event of a payment default or failure to comply with the agreed payment schedule, NEXCENTAURI reserves the full right to <strong>initiate necessary legal proceedings</strong> to recover the outstanding balance and any associated legal costs.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
-                    Use of Services
+                    5. User Content & Ownership
                 </h2>
-
-                <h3 className="text-lg mt-8">
-                    Eligibility
-                </h3>
-                <p className="mt-8">
-                    To use Linkify, you must be at least 18 years old and capable of entering into a binding contact.
-                </p>
-
-                <h3 className="text-lg mt-8">
-                    Account Registration
-                </h3>
-                <div className="mt-8">
-                    <ul className="list-disc ml-8 text-muted-foreground">
-                        <li>You must provide accurate and complete information during the registration process.</li>
-                        <li>You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account.</li>
-                        <li>You agree to notify us immediately of any unantuhorized use of your account.</li>
-                    </ul>
-                </div>
-
-                <h3 className="text-lg mt-8">
-                    Acceptable Use
-                </h3>
-                <div className="mt-8">
-                    You agree not to use Linkify for any unlawful or prohibited activities, including but not limited to:
-                    <ul className="list-disc text-muted-foreground ml-8">
-                        <li>Uploading or sharing content that is offensive, harmful, or violates any laws.</li>
-                        <li>Using the service to distribute spam or malicious content.</li>
-                        <li>Attempting to gain unauthorized access to other user accounts or Linkify&apos;s systems.</li>
-                    </ul>
-                </div>
-
-                <h2 className="text-xl font-medium mt-12">
-                    Link Shortening and Management
-                </h2>
-
-                <h3 className="text-lg mt-8">
-                    URL Shortening
-                </h3>
                 <p className="mt-8 text-muted-foreground">
-                    Linkify provides a URL shortening service that allows you to create shortened links from long URLs. You agree not to use this service to create links to illegal or harmful content.
-                </p>
-
-                <h3 className="text-lg mt-8">
-                    Analytics
-                </h3>
-                <p className="mt-8 text-muted-foreground">
-                    Linkify offers analytics for your shortened URLs. You agree to use this data responsibly and comply with all applicable privacy laws.
-                </p>
-
-                <h3 className="text-lg mt-8">
-                    QR Code Generation
-                </h3>
-                <p className="mt-8 text-muted-foreground">
-                    You may generate QR codes for your shortened URLs. You agree not to use QR codes for any malicious purposes.
-                </p>
-
-                <h3 className="text-lg mt-8">
-                    Business Transfers
-                </h3>
-                <p className="mt-8 text-muted-foreground">
-                    In the event of a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred to the acquiring entity.
+                    You retain ownership of the content you provide. However, upon full payment, the final software/product ownership will be transferred as per the individual project contract. NEXCENTAURI reserves the right to showcase completed projects in our portfolio unless a Non-Disclosure Agreement (NDA) is in place.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
-                    User Content
+                    6. Limitation of Liability
                 </h2>
-
-                <h3 className="text-lg mt-8">
-                    Ownership
-                </h3>
-
                 <p className="mt-8 text-muted-foreground">
-                    You retain ownership of any content you upload or create using Linkify. However, by uploading or creating content, you grant Linkify a worldwide, non-exclusive, royalty-free license to use, reproduce, and display your content as necessary to provide our services.
+                    <strong>NEXCENTAURI</strong> provides services on an &quot;as is&quot; basis. We are not liable for any indirect or consequential losses, data loss, or business interruptions arising from the use of our software or services once handed over to the client.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
-                    Responsibility
+                    7. Governing Law
                 </h2>
                 <p className="mt-8 text-muted-foreground">
-                    You are solely responsible for the content you upload or create. Linkify does not endorse or assume any liability for user content.
+                    These terms shall be governed by and construed in accordance with the laws of the jurisdiction in which NEXCENTAURI operates. Any disputes will be subject to the exclusive jurisdiction of the local courts.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
-                    Privacy
-                </h2>
-
-                <p className="mt-8 text-muted-foreground">
-                    Your privacy is important to us. Please review our <Link href="/privacy" className="underline">Privacy Policy</Link> to understand how we collect, use, and protect your information.
-                </p>
-
-                <h2 className="text-xl font-medium mt-12">
-                    Termination
+                    8. Contact Us
                 </h2>
                 <p className="mt-8 text-muted-foreground">
-                    Linkify reserves the right to suspend or terminate your account at any time, with or without notice, for any reason, including but not limited to violation of these terms.
-                </p>
-
-                <h2 className="text-xl font-medium mt-12">
-                    Disclaimers and Limitations of Liability
-                </h2>
-
-                <h3 className="text-lg mt-8">
-                    No Warranties
-                </h3>
-                <p className="mt-8 text-muted-foreground">
-                    Linkify is provided on an &quot;as is&quot; and &quot;as available&quot; basis. We do not warrant that the service will be uninterrupted, error-free, or free from viruses or other harmful components.
-                </p>
-
-                <h3 className="text-lg mt-8">
-                    Limitation of Liability
-                </h3>
-                <p className="mt-8 text-muted-foreground">
-                    In no event shall Linkify be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with your use of the service.
-                </p>
-
-                <h2 className="text-xl font-medium mt-12">
-                    Governing Law
-                </h2>
-                <p className="mt-8 text-muted-foreground">
-                    These terms shall be governed and construed in accordance with the laws of India, without regard to its conflict of law provisions.
-                </p>
-
-                <h2 className="text-xl font-medium mt-12">
-                    Contact Us
-                </h2>
-                <p className="mt-8 text-muted-foreground">
-                    If you have any questions or concerns about this Privacy Policy, please contact us at support@linkify.io.
+                    If you have any questions or concerns about these Terms, please contact our legal team at <strong>legal@nexcentauri.io</strong> or <strong>support@nexcentauri.io</strong>.
                 </p>
 
                 <p className="mt-8 font-medium">
-                    By using Linkify, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions.
+                    By engaging with NEXCENTAURI, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.
                 </p>
             </AnimationContainer>
         </MaxWidthWrapper>

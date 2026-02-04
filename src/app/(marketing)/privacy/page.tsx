@@ -9,17 +9,17 @@ const Privacy = () => {
                     Privacy Policy
                 </h1>
                 <p className="text-sm mb-2 italic mt-20">
-                    Last updated: 17th June 2024
+                    Last updated: {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
                 </p>
                 <p className="mt-4">
-                    At <strong>Linkify</strong>, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.
+                    At <strong>NEXCENTAURI</strong>, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.
                 </p>
 
                 <h2 className="text-xl font-medium mt-8">
                     Information We Collect
                 </h2>
 
-                <h3 className="text-lg mt-4">
+                <h3 className="text-lg mt-4 font-medium">
                     Personal Information
                 </h3>
                 <p className="mt-8 text-muted-foreground">
@@ -44,7 +44,7 @@ const Privacy = () => {
                     How We Use Your Information
                 </h2>
 
-                <h3 className="text-lg mt-8">
+                <h3 className="text-lg mt-8 font-medium">
                     Provide and Improve Services
                 </h3>
                 <div className="mt-8">
@@ -67,93 +67,40 @@ const Privacy = () => {
                     </ul>
                 </div>
 
-                <h3 className="text-lg mt-8">
-                    Analytics and Research
-                </h3>
-                <div className="mt-8">
-                    We use non-personal information for analytical purposes, such as:
-                    <ul className="list-disc text-muted-foreground ml-8">
-                        <li>Monitoring and analyzing usage trends and preferences.</li>
-                        <li>Conducting research and improving our services.</li>
-                    </ul>
-                </div>
-
                 <h2 className="text-xl font-medium mt-12">
                     How We Share Your Information
                 </h2>
 
-                <h3 className="text-lg mt-8">
+                <h3 className="text-lg mt-8 font-medium">
                     Service Providers
                 </h3>
                 <p className="mt-8 text-muted-foreground">
                     We may share your information with third-party service providers who assist us in operating our services, such as payment processors, email services, and hosting providers.
                 </p>
 
-                <h3 className="text-lg mt-8">
+                <h3 className="text-lg mt-8 font-medium">
                     Legal Requirements
                 </h3>
                 <p className="mt-8 text-muted-foreground">
                     We may disclose your information if required to do so by law or in response to valid requests by public authorities.
                 </p>
 
-                <h3 className="text-lg mt-8">
-                    Business Transfers
-                </h3>
-                <p className="mt-8 text-muted-foreground">
-                    In the event of a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred to the acquiring entity.
-                </p>
-
                 <h2 className="text-xl font-medium mt-12">
                     Data Security
                 </h2>
                 <p className="mt-8 text-muted-foreground">
-                    We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, loss, or alteration. However, no method of transmission over the internet or method of electronic storage is 100% secure.
-                </p>
-
-                <h2 className="text-xl font-medium mt-12">
-                    Data Retention
-                </h2>
-                <p className="mt-8 text-muted-foreground">
-                    We retain your personal information for as long as necessary to fulfil the purposes for which it was collected, comply with our legal obligations, resolve disputes, and enforce our agreements.
+                    We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, loss, or alteration. However, no method of transmission over the internet is 100% secure.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
                     Your Rights and Choices
                 </h2>
 
-                <h3 className="text-lg mt-8">
-                    Access and Update
-                </h3>
-                <p className="mt-8 text-muted-foreground">
-                    You have the right to access and update your personal information. You can do this by logging into your account and updating your profile settings.
-                </p>
-
-                <h3 className="text-lg mt-8">
-                    Opt-Out
-                </h3>
-                <p className="mt-8 text-muted-foreground">
-                    You can opt out of receiving promotional emails from us by following the unsubscribe instructions in those emails. You may also contact us directly to opt out.
-                </p>
-
-                <h3 className="text-lg mt-8">
+                <h3 className="text-lg mt-8 font-medium">
                     Data Deletion
                 </h3>
                 <p className="mt-8 text-muted-foreground">
-                    You have the right to request the deletion of your personal information. Please contact us at support@linkify.com to make this request.
-                </p>
-
-                <h2 className="text-xl font-medium mt-12">
-                    Children&apos;s Privacy
-                </h2>
-                <p className="mt-8 text-muted-foreground">
-                    Our services are not directed to individuals under the age of 18. We do not knowingly collect personal information from children under 18. If we become aware that we have collected personal information from a child under 18, we will take steps to delete such information.
-                </p>
-
-                <h2 className="text-xl font-medium mt-12">
-                    International Data Transfers
-                </h2>
-                <p className="mt-8 text-muted-foreground">
-                    Your information may be transferred to and processed in countries other than your own. We will ensure that appropriate safeguards are in place to protect your personal information when it is transferred across borders.
+                    You have the right to request the deletion of your personal information. Please contact us at support@nexcentauri.io to make this request.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
@@ -167,11 +114,11 @@ const Privacy = () => {
                     Contact Us
                 </h2>
                 <p className="mt-8 text-muted-foreground">
-                    If you have any questions or concerns about this Privacy Policy, please contact us at support@linkify.io.
+                    If you have any questions or concerns about this Privacy Policy, please contact us at <strong>support@nextcentauri.io</strong>.
                 </p>
 
                 <p className="mt-8 font-medium">
-                    By using Linkify, you acknowledge that you have read, understood, and agree to the terms of this Privacy Policy.
+                    By using NEXCENTAURI, you acknowledge that you have read, understood, and agree to the terms of this Privacy Policy.
                 </p>
             </AnimationContainer>
         </MaxWidthWrapper>

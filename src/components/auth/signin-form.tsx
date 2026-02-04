@@ -71,7 +71,7 @@ const SignInForm = () => {
     };
 
     return (
-        <div className="flex flex-col items-start gap-y-5 py-8 w-full px-0.5">
+        <div className="flex flex-col items-start gap-y-7 py-8 w-full px-0.5">
 
             <form onSubmit={handleSignIn} className="w-full">
                 <div className="space-y-2 w-full">
