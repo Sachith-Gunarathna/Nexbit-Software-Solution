@@ -12,7 +12,7 @@ const Privacy = () => {
                     Last updated: {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
                 </p>
                 <p className="mt-4">
-                    At <strong>NEXTUARY</strong>, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.
+                    At <strong>NEXCENTAURI</strong>, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.
                 </p>
 
                 <h2 className="text-xl font-medium mt-8">
@@ -100,7 +100,7 @@ const Privacy = () => {
                     Data Deletion
                 </h3>
                 <p className="mt-8 text-muted-foreground">
-                    You have the right to request the deletion of your personal information. Please contact us at support@nextuary.io to make this request.
+                    You have the right to request the deletion of your personal information. Please contact us at support@nexcentauri.io to make this request.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
@@ -114,11 +114,11 @@ const Privacy = () => {
                     Contact Us
                 </h2>
                 <p className="mt-8 text-muted-foreground">
-                    If you have any questions or concerns about this Privacy Policy, please contact us at <strong>support@nextuary.io</strong>.
+                    If you have any questions or concerns about this Privacy Policy, please contact us at <strong>support@nextcentauri.io</strong>.
                 </p>
 
                 <p className="mt-8 font-medium">
-                    By using NEXTUARY, you acknowledge that you have read, understood, and agree to the terms of this Privacy Policy.
+                    By using NEXCENTAURI, you acknowledge that you have read, understood, and agree to the terms of this Privacy Policy.
                 </p>
             </AnimationContainer>
         </MaxWidthWrapper>

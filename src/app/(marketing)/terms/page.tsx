@@ -12,112 +12,67 @@ const TermsPage = () => {
                     Last updated: {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
                 </p>
                 <p className="mt-4">
-                    Welcome to <strong>NEXTUARY</strong>. These terms and conditions outline the rules and regulations for the use of NEXTUARY&apos;s website and services.
+                    Welcome to <strong>NEXCENTAURI</strong>. These terms and conditions outline the rules and regulations for the use of NEXCENTAURI&apos;s website and services.
                 </p>
 
-                <h2 className="text-xl font-medium mt-8">
-                    Acceptance of Terms
+                <h2 className="text-xl font-medium mt-12 text-primary">
+                    1. Promotional Service Period
                 </h2>
                 <p className="mt-8 text-muted-foreground">
-                    By accessing and using <strong>NEXTUARY</strong>, you accept and agree to be bound by these terms and conditions. If you do not agree to these terms, you may not use our website or services.
+                    NEXCENTAURI is currently offering its services with <strong>zero service charges for a period of one (1) year</strong> from the date of engagement. Please note that after the completion of this one-year promotional period, standard service charges and subscription fees will apply as per our updated pricing model.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
-                    Changes to Terms
+                    2. Project Scope and Add-ons
                 </h2>
                 <p className="mt-8 text-muted-foreground">
-                    <strong>NEXTUARY</strong> reserves the right to modify these terms at any time. We will notify you of any changes by updating the &quot;Last updated&quot; date at the top of this page. Your continued use of our website and services after any modifications indicates your acceptance of the new terms.
+                    Each project is initiated based on a predefined scope of work agreed upon by both the client and NEXCENTAURI. If a client requests additional features, functionalities, or modifications that fall outside the initial agreement, these will be treated as <strong>&quot;Add-ons.&quot;</strong> Additional charges will be applicable for all Add-ons based on the complexity and development time required.
+                </p>
+ 
+                <h2 className="text-xl font-medium mt-12">
+                    3. Cancellation and Refund Policy
+                </h2>
+                <p className="mt-8 text-muted-foreground">
+                    Clients may request to halt or terminate a project at any stage. However, NEXCENTAURI operates a <strong>strict no-refund policy</strong> for such instances. Any advance payments, deposits, or milestone payments already made will not be refunded under any circumstances, as these funds are utilized for initial resource allocation and development costs.
+                </p>
+
+                <h2 className="text-xl font-medium mt-12 text-destructive">
+                    4. Payment Terms and Legal Compliance
+                </h2>
+                <p className="mt-8 text-muted-foreground">
+                    Payments must be settled within the agreed timeframe specified in the invoice or project contract. In the event of a payment default or failure to comply with the agreed payment schedule, NEXCENTAURI reserves the full right to <strong>initiate necessary legal proceedings</strong> to recover the outstanding balance and any associated legal costs.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
-                    Use of Services
+                    5. User Content & Ownership
                 </h2>
-
-                <h3 className="text-lg mt-8 font-medium">
-                    Eligibility
-                </h3>
                 <p className="mt-8 text-muted-foreground">
-                    To use <strong>NEXTUARY</strong>, you must be at least 18 years old and capable of entering into a binding contract.
-                </p>
-
-                <h3 className="text-lg mt-8 font-medium">
-                    Account Registration
-                </h3>
-                <div className="mt-8">
-                    <ul className="list-disc ml-8 text-muted-foreground">
-                        <li>You must provide accurate and complete information during the registration process.</li>
-                        <li>You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account.</li>
-                        <li>You agree to notify us immediately of any unauthorized use of your account.</li>
-                    </ul>
-                </div>
-
-                <h3 className="text-lg mt-8 font-medium">
-                    Acceptable Use
-                </h3>
-                <div className="mt-8">
-                    You agree not to use <strong>NEXTUARY</strong> for any unlawful or prohibited activities, including but not limited to:
-                    <ul className="list-disc text-muted-foreground ml-8">
-                        <li>Uploading or sharing content that is offensive, harmful, or violates any laws.</li>
-                        <li>Using the service to distribute spam or malicious content.</li>
-                        <li>Attempting to gain unauthorized access to other user accounts or NEXTUARY&apos;s systems.</li>
-                    </ul>
-                </div>
-
-                <h2 className="text-xl font-medium mt-12">
-                    Link Shortening and Management
-                </h2>
-
-                <h3 className="text-lg mt-8 font-medium">
-                    URL Shortening
-                </h3>
-                <p className="mt-8 text-muted-foreground">
-                    <strong>NEXTUARY</strong> provides a URL shortening service that allows you to create shortened links from long URLs. You agree not to use this service to create links to illegal or harmful content.
-                </p>
-
-                <h3 className="text-lg mt-8 font-medium">
-                    Analytics and QR Codes
-                </h3>
-                <p className="mt-8 text-muted-foreground">
-                    We offer analytics and QR code generation for your shortened URLs. You agree to use this data responsibly and comply with all applicable privacy laws. You shall not use QR codes for any malicious purposes.
+                    You retain ownership of the content you provide. However, upon full payment, the final software/product ownership will be transferred as per the individual project contract. NEXCENTAURI reserves the right to showcase completed projects in our portfolio unless a Non-Disclosure Agreement (NDA) is in place.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
-                    User Content
+                    6. Limitation of Liability
                 </h2>
                 <p className="mt-8 text-muted-foreground">
-                    You retain ownership of any content you upload or create using <strong>NEXTUARY</strong>. However, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, and display your content as necessary to provide our services. You are solely responsible for the content you create.
+                    <strong>NEXCENTAURI</strong> provides services on an &quot;as is&quot; basis. We are not liable for any indirect or consequential losses, data loss, or business interruptions arising from the use of our software or services once handed over to the client.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
-                    Privacy
+                    7. Governing Law
                 </h2>
                 <p className="mt-8 text-muted-foreground">
-                    Your privacy is important to us. Please review our <Link href="/privacy" className="underline">Privacy Policy</Link> to understand how we collect, use, and protect your information.
+                    These terms shall be governed by and construed in accordance with the laws of the jurisdiction in which NEXCENTAURI operates. Any disputes will be subject to the exclusive jurisdiction of the local courts.
                 </p>
 
                 <h2 className="text-xl font-medium mt-12">
-                    Disclaimers and Limitations of Liability
+                    8. Contact Us
                 </h2>
                 <p className="mt-8 text-muted-foreground">
-                    <strong>NEXTUARY</strong> is provided on an &quot;as is&quot; and &quot;as available&quot; basis. In no event shall <strong>NEXTUARY</strong> be liable for any indirect, incidental, or consequential damages arising out of your use of the service.
-                </p>
-
-                <h2 className="text-xl font-medium mt-12">
-                    Governing Law
-                </h2>
-                <p className="mt-8 text-muted-foreground">
-                    These terms shall be governed and construed in accordance with the laws of the jurisdiction in which <strong>NEXTUARY</strong> operates, without regard to its conflict of law provisions.
-                </p>
-
-                <h2 className="text-xl font-medium mt-12">
-                    Contact Us
-                </h2>
-                <p className="mt-8 text-muted-foreground">
-                    If you have any questions or concerns about these Terms and Conditions, please contact us at <strong>support@nextuary.io</strong>.
+                    If you have any questions or concerns about these Terms, please contact our legal team at <strong>legal@nexcentauri.io</strong> or <strong>support@nexcentauri.io</strong>.
                 </p>
 
                 <p className="mt-8 font-medium">
-                    By using <strong>NEXTUARY</strong>, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions.
+                    By engaging with NEXCENTAURI, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.
                 </p>
             </AnimationContainer>
         </MaxWidthWrapper>
