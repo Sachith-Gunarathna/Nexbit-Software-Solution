@@ -89,7 +89,7 @@ export const TEAMMEMBERS = [
         description: "Senior Software Engineer, I am responsible for the technical architecture and long-term scalability of the solutions we build at Nexcentauri.",
         image: "/team/akash-amarasinghe.jpg",
         links: {
-            linkedin: "https://linkedin.com/in/your-profile",
+            linkedin: "https://www.linkedin.com/in/akash-amarasinghe-12b447390/",
             github: "https://github.com/Akash200560",
             facebook: "https://web.facebook.com/akash.amarasinghe.2025"
         }
