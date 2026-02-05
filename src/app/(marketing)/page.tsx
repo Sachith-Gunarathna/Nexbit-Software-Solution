@@ -214,7 +214,7 @@ const HomePage = async () => {
                 </AnimationContainer>
             </MaxWidthWrapper>
 
-            <MaxWidthWrapper className="py-10">
+            {/* <MaxWidthWrapper className="py-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-center lg:items-center justify-center w-full py-8 max-w-xl mx-auto">
                         <MagicBadge title="Our Customers" />
@@ -312,7 +312,7 @@ const HomePage = async () => {
                         ))}
                     </div>
                 </div>
-            </MaxWidthWrapper>
+            </MaxWidthWrapper> */}
 
 
             <MaxWidthWrapper className="mt-20 max-w-[100vw] overflow-x-hidden scrollbar-hide">
