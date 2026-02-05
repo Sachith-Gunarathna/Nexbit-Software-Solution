@@ -97,7 +97,7 @@ export const TEAMMEMBERS = [
   
     {
         name: "Vihanga Manukulasooriya",
-        role: "Senior Software Engineer & Marketing Manager",
+        role: "Senior Software Engineer & Digital Marketing Manager",
         description: "I have a proven track record of developing end-to-end applications, including advanced POS systems and cinematic web experiences using Next.js and React.",
         image: "/team/84dbdd38-ebed-4372-898e-806f70519c6b.jpg",
         links: {
