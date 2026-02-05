@@ -16,7 +16,7 @@ const Footer = () => {
                             <Icons.logo className="w-7 h-7" />
                         </div>
                         <p className="text-muted-foreground mt-4 text-sm text-start">
-                            Building the future, one bit at a time.
+                            Powering the Next Digital Century.
                         </p>
 
                     </div>
