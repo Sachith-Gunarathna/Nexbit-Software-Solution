@@ -26,10 +26,10 @@ export const CARDS = [
                         <div className="h-2 w-2 rounded-full bg-green-500" />
                     </div>
                     <CardTitle className="text-sm font-mono text-cyan-400">
-                        NexbitEngine.java
+                        Nexcentauri.java
                     </CardTitle>
                     <CardDescription className="text-xs font-mono text-slate-400">
-                        {`public class Nexbir {
+                        {`public class Nexcentauri {
                         public static void main(String[] args) {
                             System.out.println("Building scalable solutions...");
                         }
