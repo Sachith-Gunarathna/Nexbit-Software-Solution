@@ -1,8 +1,5 @@
 import { AnimationContainer, MaxWidthWrapper } from "@/components";
-import ContactForm from "@/components/contact";
 import MagicBadge from "@/components/ui/magic-badge";
-import { FAQ } from "@/utils/constants/faq";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@radix-ui/react-accordion";
 import { Mail, MapPin, Phone, Send } from "lucide-react";
 
 const Contact = () => {
@@ -64,8 +61,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Right Side: Contact Form */}
+               
                 <div className="bg-card/50 backdrop-blur-sm p-8 rounded-3xl border border-border">
                     <form className="space-y-4">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
