@@ -1,4 +1,5 @@
 import React, { use } from 'react';
+import Image from 'next/image';
 import { Target, Eye, ShieldCheck, Zap, Globe, Rocket, ArrowRight } from "lucide-react";
 import Link from 'next/link';
 import MagicBadge from '@/components/ui/magic-badge';
@@ -52,7 +53,13 @@ const AboutPage = () => {
 
                             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent"></div>
                             <div className="flex items-center justify-center h-full text-primary/40 font-heading italic text-2xl">
-                                Next-Gen Development
+                               <Image 
+                               src="/team.jpeg"
+                               alt="About Us Illustration"
+                               fill
+                               className="object-contain"
+                               />
+                               
                             </div>
                         </div>
                     </AnimationContainer>
