@@ -122,66 +122,46 @@ export const TEAMMEMBERS = [
 
 export const REVIEWS = [
     {
-        name: "Michael Smith",
-        username: "@michaelsmith",
+        name: "Kasun Perera – Business Owner, Colombo (System)",
+        // username: "@michaelsmith",
         avatar: "https://randomuser.me/api/portraits/men/1.jpg",
         rating: 5,
-        review: "This tool is a lifesaver! Managing and tracking my links has never been easier. A must-have for anyone dealing with numerous links."
+        review: "Nexcentuari built a custom system that perfectly matched our workflow. It reduced manual work and helped our team operate much more efficiently."
     },
     {
-        name: "Emily Johnson",
-        username: "@emilyjohnson",
-        avatar: "https://randomuser.me/api/portraits/women/1.jpg",
-        rating: 4,
-        review: "Very useful app! It has streamlined my workflow considerably. A few minor bugs, but overall a great experience."
-    },
-    {
-        name: "Daniel Williams",
-        username: "@danielwilliams",
-        avatar: "https://randomuser.me/api/portraits/men/2.jpg",
-        rating: 5,
-        review: "I've been using this app daily for months. The insights and analytics it provides are invaluable. Highly recommend it!"
-    },
-    {
-        name: "Sophia Brown",
-        username: "@sophiabrown",
+        name: "Nimali Jayasinghe – Business Owner, Kandy (System)",
+        // username: "@emilyjohnson",
         avatar: "https://randomuser.me/api/portraits/women/2.jpg",
         rating: 4,
-        review: "This app is fantastic! It offers everything I need to manage my links efficiently."
+        review: "We had many process issues before. After implementing their system, tracking and reporting became simple and accurate. Very professional approach."
     },
     {
-        name: "James Taylor",
-        username: "@jamestaylor",
-        avatar: "https://randomuser.me/api/portraits/men/3.jpg",
+        name: "Nimeshi Silva – Business Owner, Galle (System)",
+        // username: "@danielwilliams",
+        avatar: "https://randomuser.me/api/portraits/women/2.jpg",
         rating: 5,
-        review: "Absolutely love this app! It's intuitive and feature-rich. Has significantly improved how I manage and track links."
+        review: "What we liked most was that the system was built specifically for us, not a template. It’s easy to use and ready to scale as our business grows."
     },
     {
-        name: "Olivia Martinez",
-        username: "@oliviamartinez",
+        name: "Isuru Fernando – IT Coordinator, Colombo (System)",
+        // username: "@sophiabrown",
+        avatar: "https://randomuser.me/api/portraits/men/1.jpg",
+        rating: 4,
+        review: "Strong planning, clean UI, and reliable performance. Nexcentuari delivered exactly what was promised and supported us well after launch."
+    },
+    {
+        name: "Sachini Weerasinghe – Marketing Executive, Negombo (Website)",
+        // username: "@jamestaylor",
         avatar: "https://randomuser.me/api/portraits/women/3.jpg",
-        rating: 4,
-        review: "Great app with a lot of potential. It has already saved me a lot of time. Looking forward to future updates and improvements."
-    },
-    {
-        name: "William Garcia",
-        username: "@williamgarcia",
-        avatar: "https://randomuser.me/api/portraits/men/4.jpg",
         rating: 5,
-        review: "This app is a game-changer for link management. It's easy to use, extremely powerful and highly recommended!"
+        review: "Our website now looks modern, fast, and professional. The UI/UX clearly represents our brand and improved customer engagement."
     },
     {
-        name: "Mia Rodriguez",
-        username: "@miarodriguez",
-        avatar: "https://randomuser.me/api/portraits/women/4.jpg",
+        name: "Ravindu Karunaratne – Founder, Kurunegala (Website)",
+        // username: "@oliviamartinez",
+        avatar: "https://randomuser.me/api/portraits/men/1.jpg",
         rating: 4,
-        review: "I've tried several link management tools, but this one stands out. It's simple, effective."
+        review: "Nexcentuari understood our vision and translated it into a clean, responsive website. The design quality exceeded our expectations."
     },
-    {
-        name: "Henry Lee",
-        username: "@henrylee",
-        avatar: "https://randomuser.me/api/portraits/men/5.jpg",
-        rating: 5,
-        review: "This app has transformed my workflow. Managing and analyzing links is now a breeze. I can't imagine working without it."
-    },
+    
 ] as const;

@@ -214,7 +214,7 @@ const HomePage = async () => {
                 </AnimationContainer>
             </MaxWidthWrapper>
 
-            {/* <MaxWidthWrapper className="py-10">
+            <MaxWidthWrapper className="py-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-center lg:items-center justify-center w-full py-8 max-w-xl mx-auto">
                         <MagicBadge title="Our Customers" />
@@ -236,9 +236,9 @@ const HomePage = async () => {
                                             <CardTitle className="text-lg font-medium text-muted-foreground">
                                                 {review.name}
                                             </CardTitle>
-                                            <CardDescription>
+                                            {/* <CardDescription>
                                                 {review.username}
-                                            </CardDescription>
+                                            </CardDescription> */}
                                         </CardHeader>
                                         <CardContent className="space-y-4 pb-4">
                                             <p className="text-muted-foreground">
@@ -264,9 +264,9 @@ const HomePage = async () => {
                                             <CardTitle className="text-lg font-medium text-muted-foreground">
                                                 {review.name}
                                             </CardTitle>
-                                            <CardDescription>
+                                            {/* <CardDescription>
                                                 {review.username}
-                                            </CardDescription>
+                                            </CardDescription> */}
                                         </CardHeader>
                                         <CardContent className="space-y-4 pb-4">
                                             <p className="text-muted-foreground">
@@ -293,7 +293,7 @@ const HomePage = async () => {
                                                 {review.name}
                                             </CardTitle>
                                             <CardDescription>
-                                                {review.username}
+                                                {/* {review.username} */}
                                             </CardDescription>
                                         </CardHeader>
                                         <CardContent className="space-y-4 pb-4">
@@ -312,7 +312,7 @@ const HomePage = async () => {
                         ))}
                     </div>
                 </div>
-            </MaxWidthWrapper> */}
+            </MaxWidthWrapper>
 
 
             <MaxWidthWrapper className="mt-20 max-w-[100vw] overflow-x-hidden scrollbar-hide">
@@ -327,7 +327,9 @@ const HomePage = async () => {
                             </p>
                             <div className="mt-6">
                                 <Button>
+                                    <Link href="./contact">
                                     Start Your Project
+                                    </Link>
                                     <ArrowRightIcon className="w-4 h-4 ml-2" />
                                 </Button>
                             </div>
