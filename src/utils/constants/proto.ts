@@ -78,7 +78,7 @@ export const TEAMMEMBERS = [
         description: "Lead Software Engineer | Nexcentauri. Full-Stack Developer dedicated to building high-impact software solutions. From Java desktop applications to responsive web platforms, I turn complex requirements into high-performance code.",
         image: "/team/sachith-gunarathna.jpg",
         links: {
-            linkedin: "https://linkedin.com/in/your-profile",
+            linkedin: "https://www.linkedin.com/in/sachith-ng/",
             github: "https://github.com/Sachith-Gunarathna",
             facebook: "https://web.facebook.com/sachith.niromal.10"
         }
