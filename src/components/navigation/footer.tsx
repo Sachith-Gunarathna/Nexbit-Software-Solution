@@ -111,7 +111,7 @@ const Footer = () => {
                 </AnimationContainer>
             </div>
 
-            <div className="h-[20rem] lg:h-[20rem] hidden md:flex items-center justify-center">
+            <div className="h-[20rem] lg:h-[20rem] flex items-center justify-center">
                 <TextHoverEffect text="NEXCENTAURI" />
             </div>
         </footer>
