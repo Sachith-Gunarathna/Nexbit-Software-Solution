@@ -10,12 +10,12 @@ const AboutPage = () => {
         <div className="w-full pb-20">
             <AnimationContainer delay={0.1}>
                 <section className="flex flex-col items-center justify-center py-20 px-4 max-w-4xl mx-auto text-center">
-                    <MagicBadge title="About Nexcentuari" />
+                    <MagicBadge title="About Nexcentauri" />
                     <h1 className="text-3xl md:text-5xl lg:text-6xl font-semibold font-heading mt-6 !leading-tight">
                         Engineering the <span className="text-primary">Next Digital Century</span>
                     </h1>
                     <p className="text-lg md:text-xl mt-8 text-muted-foreground leading-relaxed">
-                        Nexcentuari is a global technology company delivering custom software solutions for any business requirement.
+                        Nexcentauri is a global technology company delivering custom software solutions for any business requirement.
                         We help organizations streamline operations, improve efficiency, and scale with confidence.
                     </p>
 
@@ -38,7 +38,7 @@ const AboutPage = () => {
 
                             <h2 className="text-3xl font-bold font-heading mb-6">Who We Are</h2>
                             <p className="text-muted-foreground text-lg leading-relaxed">
-                                Nexcentuari partners with businesses to design and develop digital solutions tailored to real operational needs.
+                                Nexcentauri partners with businesses to design and develop digital solutions tailored to real operational needs.
                                 We focus on building systems that are reliable, scalable, and aligned with long-term business goals.
                             </p>
                             <p className="text-muted-foreground text-lg mt-4 leading-relaxed">
@@ -121,7 +121,7 @@ const AboutPage = () => {
             <AnimationContainer delay={0.3}>
                 <section className="py-20 bg-card/30 border-y border-border">
                     <div className="max-w-7xl mx-auto px-4 md:px-10">
-                        <h2 className="text-3xl md:text-4xl font-bold font-heading text-center mb-16">Why Nexcentuari</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold font-heading text-center mb-16">Why Nexcentauri</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                             {[
                                 { t: "Custom-built", d: "Solutions for any business requirement" },
@@ -144,7 +144,7 @@ const AboutPage = () => {
                 <section className="py-20 px-4 text-center">
                     <div className="max-w-4xl mx-auto p-12 rounded-[3rem] bg-gradient-to-b from-card to-background border border-border">
                         <h2 className="text-3xl md:text-4xl font-bold font-heading mb-6">Let’s Build What Your Business Needs</h2>
-                        <p className="text-muted-foreground mb-10 text-lg">Partner with Nexcentuari to design and develop software solutions that move your business forward.</p>
+                        <p className="text-muted-foreground mb-10 text-lg">Partner with Nexcentauri to design and develop software solutions that move your business forward.</p>
 
                         <Button size={"lg"} asChild>
                             <Link href="./contact">
