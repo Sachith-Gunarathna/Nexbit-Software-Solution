@@ -184,10 +184,12 @@ const HomePage = async () => {
                             <div key={index} className="group flex flex-col items-center p-8 bg-secondary/10 rounded-3xl border border-border hover:border-primary/50 transition-all duration-300">
                               
                                 <div className="relative w-32 h-32 rounded-full overflow-hidden mb-6 border-2 border-primary/20 group-hover:border-primary transition-colors">
-                                    <img
+                                    <Image
                                         src={member.image}
                                         alt={member.name}
-                                        className="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500"
+                                        width={128}
+                                        height={128}
+                                        className="object-cover w-full h-full group-hover:grayscale-0 transition-all duration-500"
                                     />
                                 </div>
 
