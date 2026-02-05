@@ -64,7 +64,7 @@ export const TEAMMEMBERS = [
     {
         name: "Thisaga Narayana",
         role: "Co-Founder & Project Manager",
-        description: "I specialize in managing end-to-end development processes, specifically in Java-based desktop solutions and modern web technologies like Next.js. Beyond coding, I lead project strategy, team coordination, and client relations at Nexbir Software Solution.",
+        description: "I specialize in managing end-to-end development processes, specifically in Java-based desktop solutions and modern web technologies like Next.js. Beyond coding, I lead project strategy, team coordination, and client relations at Nexcentauri.",
         image: "/team/thisanga-narayana.jpg",
         links: {
             linkedin: "https://www.linkedin.com/in/thisaga-narayana-35a060342?utm_source=share_via&utm_content=profile&utm_medium=member_android",
