@@ -29,7 +29,13 @@ const Blogs = () => {
                                     </CardTitle>
                                     <CardDescription className="mt-2">
                                         {blog.description.length > 100 ? `${blog.description.substring(0, 100)}...` : blog.description}
+                                        
                                     </CardDescription>
+                                    <div className="flex items-center mt-4">
+                                        <p className="text-sm mb-2 italic text-center text-gray-500">
+                                            Posted on {new Date(blog.date_published).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })} by {blog.author_name}
+                                        </p>
+                                    </div>
                                 </div>
                             </CardContent>
                         </Card>

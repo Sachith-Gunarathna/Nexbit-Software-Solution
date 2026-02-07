@@ -1,38 +1,56 @@
 [
     {
-        "title": "How to Maximize Your Productivity with Link Management Tools",
-        "image": "/assets/blog1.jpg",
-        "author_image": "https://example.com/images/author1.jpg",
-        "author_name": "John Doe",
-        "date_published": "2024-10-05",
-        "description": "Learn how to maximize your productivity with link management tools.",
-        "slug": "how-to-maximize-your-productivity-with-link-management-tools"
+        "title": "Why Your Business Needs Custom Software Solutions in 2026",
+        "image": "/assets/blog/custom-software.jpg",
+        "author_image": "/assets/authors/sachith.jpg",
+        "author_name": "Nexcentauri Media Team",
+        "date_published": "2026-02-05",
+        "description": "Discover how tailored software can streamline your workflows and give you a competitive edge over generic solutions.",
+        "slug": "why-your-business-needs-custom-software-solutions-2026"
     },
     {
-        "title": "The Ultimate Guide to Organizing Links for Teams",
-        "image": "/assets/blog2.jpg",
-        "author_image": "https://example.com/images/author2.jpg",
-        "author_name": "Jane Smith",
-        "date_published": "2024-09-28",
-        "description": "How to organize links for teams.",
-        "slug": "the-ultimate-guide-to-organizing-links-for-teams"
+        "title": "Modernizing Retail: The Power of Advanced Offline POS Systems",
+        "image": "/assets/blog/pos-system.jpg",
+        "author_image": "/assets/authors/sachith.jpg",
+        "author_name": "Nexcentauri Media Team",
+        "date_published": "2026-01-30",
+        "description": "Learn how our Java-based Advanced POS system helps businesses operate seamlessly even without an internet connection.",
+        "slug": "modernizing-retail-advanced-offline-pos-systems"
     },
     {
-        "title": "Why Link Management is Essential for Digital Marketers",
-        "image": "/assets/blog3.jpg",
-        "author_image": "https://example.com/images/author3.jpg",
-        "author_name": "Chris Martin",
-        "date_published": "2024-09-20",
-        "description": "Link management is essential for digital marketers.",
-        "slug": "why-link-management-is-essential-for-digital-marketers"
+        "title": "Cinematic Web Experiences: Beyond Static Websites",
+        "image": "/assets/blog/cinematic-web.jpg",
+        "author_image": "/assets/authors/sachith.jpg",
+        "author_name": "Nexcentauri Media Team",
+        "date_published": "2026-01-20",
+        "description": "How NEXTUARY uses GSAP and Next.js to create immersive, high-performance websites that captivate users.",
+        "slug": "cinematic-web-experiences-beyond-static-websites"
     },
     {
-        "title": "Top 5 Features Every Link Management Software Should Have",
-        "image": "/assets/blog4.jpg",
-        "author_image": "https://example.com/images/author4.jpg",
-        "author_name": "Emily Clark",
-        "date_published": "2024-09-15",
-        "description": "The features that every link management software should have.",
-        "slug": "top-5-features-every-link-management-software-should-have"
+        "title": "The Future of Security: Protecting Small Businesses from Cyber Threats",
+        "image": "/assets/blog/cyber-security.jpg",
+        "author_image": "/assets/authors/sachith.jpg",
+        "author_name": "Nexcentauri Media Team",
+        "date_published": "2026-01-15",
+        "description": "Essential cybersecurity tips every business owner should know to safeguard their digital assets and customer data.",
+        "slug": "protecting-small-businesses-from-cyber-threats"
+    },
+    {
+        "title": "AI & Automation: Boosting Productivity for Modern Enterprises",
+        "image": "/assets/blog/ai-automation.jpg",
+        "author_image": "/assets/authors/sachith.jpg",
+        "author_name": "Nexcentauri Media Team",
+        "date_published": "2026-01-10",
+        "description": "Explore how AI-driven automation can reduce operational costs and eliminate repetitive manual tasks.",
+        "slug": "ai-automation-boosting-productivity-modern-enterprises"
+    },
+    {
+        "title": "Cloud Computing: Why Moving Your Data to the Cloud is Essential",
+        "image": "/assets/blog/cloud-computing.jpg",
+        "author_image": "/assets/authors/sachith.jpg",
+        "author_name": "Nexcentauri Media Team",
+        "date_published": "2026-01-05",
+        "description": "Learn the benefits of cloud storage, from global accessibility to high-level data security and real-time collaboration.",
+        "slug": "cloud-computing-why-moving-data-to-cloud-is-essential"
     }
 ]
