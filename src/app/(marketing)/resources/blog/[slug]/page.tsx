@@ -81,12 +81,12 @@ const BlogPage = ({ params }: Props) => {
                             text-lg md:text-xl 
                             leading-loose 
                             
-                            /* Bold Tags Styles */
-                            [&>b]:text-blue-400 
+                            
+                            [&>b]:text-purple-500 
                             [&>b]:font-semibold 
                             [&>b]:tracking-wide
                             
-                            /* Bullet Points Alignment (JSON එකේ • තියෙන නිසා) */
+                           
                             whitespace-pre-line
                         "
                         dangerouslySetInnerHTML={{ __html: blog.description }} 
@@ -97,7 +97,7 @@ const BlogPage = ({ params }: Props) => {
                 <div className="mt-24 text-center space-y-6">
                     <h3 className="text-3xl font-bold text-white">Ready to transform your business?</h3>
                     <p className="text-gray-400 text-lg">Join Nexcentauri and step into the future.</p>
-                    <Link href="/contact" className="inline-block bg-blue-600 hover:bg-blue-500 text-white text-lg font-medium px-10 py-4 rounded-full transition-all hover:shadow-[0_0_30px_-5px_rgba(37,99,235,0.5)]">
+                    <Link href="/contact" className="inline-block bg-white hover:bg-gray-200 text-black text-lg font-medium px-10 py-4 rounded-full transition-all hover:shadow-[0_0_30px_-5px_rgba(37,99,235,0.5)]">
                         Get Started Now
                     </Link>
                 </div>
