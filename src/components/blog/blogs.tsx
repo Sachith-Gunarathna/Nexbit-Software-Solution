@@ -1,40 +1,63 @@
-import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
+"use client";
+
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import Image from 'next/image';
 import Link from "next/link";
 import MagicCard from "../ui/magic-card";
 import blogs from "@/utils/constants/blogs.json";
+import { useState, useEffect } from "react";
+import parse from "html-react-parser";
 
 const Blogs = () => {
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    if (!mounted) return null;
+
     return (
-        <div className="flex flex-col items-center justify-center max-w-6xl mx-auto px-4 md:px-0">
+        <div className="flex flex-col items-center justify-center max-w-6xl mx-auto px-4 md:px-0 py-10">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {blogs.map((blog, id) => (
-                    <MagicCard key={id} className="p-0 md:p-0 relative">
-                        <Link href={`/resources/blog/${blog.slug}`} className="w-full h-full absolute -z-1 inset-0"></Link>
-                        <Card className="group border-0">
-                            <CardContent className="p-4 lg:p-6">
-                                <div className="flex items-center justify-center h-40 lg:h-52 overflow-hidden">
+                    <MagicCard key={id} className="p-0 md:p-0 relative overflow-hidden rounded-xl">
+                        <Link href={`/resources/blog/${blog.slug}`} className="absolute inset-0 z-20 cursor-pointer"></Link>
+
+                        <Card className="group border-0 bg-transparent h-full flex flex-col">
+                            <CardContent className="p-4 lg:p-6 flex-1 flex flex-col">
+                                <div className="relative h-48 lg:h-52 w-full overflow-hidden rounded-lg mb-4">
                                     <Image
                                         src={blog.image}
                                         alt={blog.title}
-                                        width={1024}
-                                        height={1024}
+                                        fill
+                                        className="object-cover transition-transform duration-500 group-hover:scale-105"
                                         unoptimized
-                                        className="w-full h-full object-cover rounded-lg"
                                     />
                                 </div>
-                                <div className="flex flex-col items-start justify-start mt-4">
-                                    <CardTitle className="text-lg font-semibold text-foreground/80 group-hover:text-foreground transition-all duration-300">
+
+                                <div className="flex flex-col flex-1">
+                                    <CardTitle className="text-lg font-bold text-white/90 group-hover:text-blue-400 transition-colors duration-300 mb-3">
                                         {blog.title}
                                     </CardTitle>
-                                    <CardDescription className="mt-2">
-                                        {blog.description.length > 100 ? `${blog.description.substring(0, 100)}...` : blog.description}
-                                        
-                                    </CardDescription>
-                                    <div className="flex items-center mt-4">
-                                        <p className="text-sm mb-2 italic text-center text-gray-500">
-                                            Posted on {new Date(blog.date_published).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })} by {blog.author_name}
-                                        </p>
+
+
+                                    <div className="text-sm text-gray-400 line-clamp-4 leading-relaxed mb-4">
+                                        {parse(blog.description)}
+                                    </div>
+
+                                    <div className="mt-auto flex items-center justify-between text-xs text-gray-500 border-t border-gray-800 pt-3">
+                                        <div className="flex items-center gap-2">
+                                            {blog.author_image && (
+                                                <div className="relative w-5 h-5 rounded-full overflow-hidden">
+                                                    <Image src={blog.author_image} alt={blog.author_name} fill className="object-cover" />
+                                                </div>
+                                            )}
+                                            <span>{blog.author_name}</span>
+                                        </div>
+                                        <span>
+                                            {new Date(blog.date_published).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}
+                                        </span>
                                     </div>
                                 </div>
                             </CardContent>
@@ -43,7 +66,7 @@ const Blogs = () => {
                 ))}
             </div>
         </div>
-    )
+    );
 };
 
-export default Blogs
+export default Blogs;
