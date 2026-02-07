@@ -1,28 +1,25 @@
+import { auth } from "@clerk/nextjs/server";
 import { Metadata } from "next";
 
 export const generateMetadata = ({
-  
-    title = "Nexcentauri | Enterprise POS & Cinematic Web Design",
-    
-  
-    description = "Nexcentauri specializes in high-performance Java POS systems and immersive Next.js websites. We engineer scalable solutions for your business growth.",
-    
-    image = "/thumbnail.png",
+    title = "Nexcentauri",
+    description = "Nexcentauri is a global technology company delivering custom software solutions, mobile applications, and high-performance websites for businesses worldwide.",
+    image = "https://www.nexcentauri.com/thumbnail.jpg",
     icons = [
         {
             rel: "apple-touch-icon",
             sizes: "32x32",
-            url: "/apple-touch-icon.png"
+            url: "https://www.nexcentauri.com/apple-touch-icon.png"
         },
         {
             rel: "icon",
             sizes: "32x32",
-            url: "/favicon-32x32.png"
+            url: "https://www.nexcentauri.com/favicon-32x32.png"
         },
         {
             rel: "icon",
             sizes: "16x16",
-            url: "/favicon-16x16.png"
+            url: "https://www.nexcentauri.com/favicon-16x16.png"
         },
     ],
     noIndex = false
@@ -33,19 +30,50 @@ export const generateMetadata = ({
     icons?: Metadata["icons"];
     noIndex?: boolean;
 } = {}): Metadata => ({
-    title,
+    title:{
+        default: title,
+        template: `%s | ${title}`,
+    },
     description,
     icons,
+    keywords: [
+        "Nexcentauri", 
+        "Software Engineering Sri Lanka", 
+        "Custom Software Solutions", 
+        "Mobile App Development", 
+        "Web Development", 
+        "POS Systems Sri Lanka",
+        "Next Digital Century"
+    ],
+    metadataBase: new URL("https://nexcentauri.com"), 
+    alternates: {
+        canonical: "/",
+    },
     openGraph: {
         title,
         description,
-        ...(image && { images: [{ url: image }] }),
+        url: "https://nexcentauri.com",
+        siteName: "Nexcentauri",
+        images: image ? [{ url: image, width: 1200, height: 630 }] : [],
+        locale: "en_US",
+        type: "website",
     },
     twitter: {
+        card: "summary_large_image",
         title,
         description,
-        ...(image && { card: "summary_large_image", images: [image] }),
-        creator: "@nexcentauri", 
+        creator: "@nexcentauri",
+        images: image ? [image] : [],
     },
-    ...(noIndex && { robots: { index: false, follow: false } }),
+    robots: {
+        index: !noIndex,
+        follow: !noIndex,
+        googleBot: {
+            index: !noIndex,
+            follow: !noIndex,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
+    },
 });
