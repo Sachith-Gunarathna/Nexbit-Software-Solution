@@ -1,56 +1,56 @@
 [
     {
         "title": "Why Your Business Needs Custom Software Solutions in 2026",
-        "image": "/assets/blog/custom-software.jpg",
-        "author_image": "/assets/authors/sachith.jpg",
+        "image": "/blog/Why Your Business Needs Custom Software Solutions in 2026.png",
+        "author_image": "/Nexcentauri logo white.png",
         "author_name": "Nexcentauri Media Team",
         "date_published": "2026-02-05",
-        "description": "Discover how tailored software can streamline your workflows and give you a competitive edge over generic solutions.",
+        "description": "In 2026, off-the-shelf software is no longer enough to stay ahead. At Nexcentauri, we believe your software should adapt to your business, not the other way around.<br><br><b>Key Benefits:</b><br>• <b>Limitless Scalability:</b> Grow your digital infrastructure as your business expands.<br>• <b>Ironclad Security:</b> Unique source code that makes you a harder target for cyber threats.<br>• <b>Full Ownership:</b> No monthly subscriptions—you own the software and the data.<br>• <b>Perfect Integration:</b> Connects seamlessly with your existing tools and workflows.",
         "slug": "why-your-business-needs-custom-software-solutions-2026"
     },
     {
         "title": "Modernizing Retail: The Power of Advanced Offline POS Systems",
-        "image": "/assets/blog/pos-system.jpg",
-        "author_image": "/assets/authors/sachith.jpg",
+        "image": "/blog/Modernizing Retail The Power of Advanced Offline POS Systems.png",
+        "author_image": "/Nexcentauri logo white.png",
         "author_name": "Nexcentauri Media Team",
         "date_published": "2026-01-30",
-        "description": "Learn how our Java-based Advanced POS system helps businesses operate seamlessly even without an internet connection.",
+       "description": "Don't let a poor internet connection halt your sales. Our Java-based Advanced POS system is built for resilience and speed in the modern retail landscape.<br><br><b>Why It Matters:</b><br>• <b>Offline Continuity:</b> Keep selling even when the internet goes down; sync later.<br>• <b>Smart Inventory:</b> Real-time tracking that prevents overstocking and shortages.<br>• <b>Lightning-Fast Checkout:</b> Reduce customer wait times with an optimized UI.<br>• <b>Data-Driven Insights:</b> Generate detailed sales reports with a single click.",
         "slug": "modernizing-retail-advanced-offline-pos-systems"
     },
     {
         "title": "Cinematic Web Experiences: Beyond Static Websites",
-        "image": "/assets/blog/cinematic-web.jpg",
-        "author_image": "/assets/authors/sachith.jpg",
+        "image": "/blog/Cinematic Web Experiences Beyond Static Websites.png",
+        "author_image": "/Nexcentauri logo white.png",
         "author_name": "Nexcentauri Media Team",
         "date_published": "2026-01-20",
-        "description": "How NEXTUARY uses GSAP and Next.js to create immersive, high-performance websites that captivate users.",
+        "description": "The era of boring websites is over. We use Next.js and GSAP to build immersive digital journeys that turn visitors into loyal customers.<br><br><b>What We Deliver:</b><br>• <b>Smooth Animations:</b> High-performance visuals that capture and hold attention.<br>• <b>Next-Gen Speed:</b> Lightning-fast load times for the best user experience.<br>• <b>Interactive Storytelling:</b> Guide your users through a cinematic brand narrative.<br>• <b>Mobile-First Design:</b> Flawless performance across all devices and screens.",
         "slug": "cinematic-web-experiences-beyond-static-websites"
     },
     {
         "title": "The Future of Security: Protecting Small Businesses from Cyber Threats",
-        "image": "/assets/blog/cyber-security.jpg",
-        "author_image": "/assets/authors/sachith.jpg",
+        "image": "/blog/The Future of Security Protecting Small Businesses from Cyber Threats.png",
+        "author_image": "/Nexcentauri logo white.png",
         "author_name": "Nexcentauri Media Team",
         "date_published": "2026-01-15",
-        "description": "Essential cybersecurity tips every business owner should know to safeguard their digital assets and customer data.",
+        "description": "Small businesses are now the primary targets for cybercriminals. Protecting your customer data is not just an option—it’s a necessity for survival.<br><br><b>Our Security Pillars:</b><br>• <b>Advanced Encryption:</b> Keeping your sensitive data unreadable to hackers.<br>• <b>Threat Detection:</b> Identifying vulnerabilities before they are exploited.<br>• <b>Disaster Recovery:</b> Automated backups to ensure you never lose your progress.<br>• <b>Access Control:</b> Modern authentication to keep your internal systems private.",
         "slug": "protecting-small-businesses-from-cyber-threats"
     },
     {
         "title": "AI & Automation: Boosting Productivity for Modern Enterprises",
-        "image": "/assets/blog/ai-automation.jpg",
-        "author_image": "/assets/authors/sachith.jpg",
+        "image": "/blog/AI & Automation Boosting Productivity for Modern Enterprises.png",
+        "author_image": "/Nexcentauri logo white.png",
         "author_name": "Nexcentauri Media Team",
         "date_published": "2026-01-10",
-        "description": "Explore how AI-driven automation can reduce operational costs and eliminate repetitive manual tasks.",
+       "description": "Stop wasting time on repetitive tasks. Nexcentauri integrates AI-driven automation to help you focus on high-level strategy and creative growth.<br><br><b>Automation Highlights:</b><br>• <b>Workflow Automation:</b> Letting software handle the mundane daily tasks.<br>• <b>Intelligent Chatbots:</b> Providing 24/7 customer support without human fatigue.<br>• <b>Error Elimination:</b> AI precision that removes the risk of manual mistakes.<br>• <b>Cost Optimization:</b> Significant reduction in operational overhead and labor costs.",
         "slug": "ai-automation-boosting-productivity-modern-enterprises"
     },
     {
         "title": "Cloud Computing: Why Moving Your Data to the Cloud is Essential",
-        "image": "/assets/blog/cloud-computing.jpg",
-        "author_image": "/assets/authors/sachith.jpg",
+        "image": "/blog/Cloud Computing Why Moving Your Data to the Cloud is Essential.png",
+        "author_image": "/Nexcentauri logo white.png",
         "author_name": "Nexcentauri Media Team",
         "date_published": "2026-01-05",
-        "description": "Learn the benefits of cloud storage, from global accessibility to high-level data security and real-time collaboration.",
+        "description": "The cloud is the backbone of modern business agility. Access your office from anywhere in the world while keeping your data safer than ever.<br><br><b>Cloud Advantages:</b><br>• <b>Global Mobility:</b> Your data and tools are accessible from any device, anywhere.<br>• <b>Infinite Reliability:</b> No more worrying about hardware failure or data loss.<br>• <b>Real-Time Collaboration:</b> Empower your team to work together in sync.<br>• <b>Scalable Storage:</b> Pay only for the space you need, when you need it.", 
         "slug": "cloud-computing-why-moving-data-to-cloud-is-essential"
     }
 ]
