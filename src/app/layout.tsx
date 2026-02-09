@@ -3,6 +3,7 @@ import { Toaster } from "@/components/ui/sonner";
 import "@/styles/globals.css";
 import { aeonik, cn, generateMetadata, inter } from "@/utils";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = generateMetadata();
 
@@ -25,6 +26,7 @@ export default function RootLayout({
                     {children}
                 </Providers>
                 <Analytics />
+                <SpeedInsights />
             </body>
         </html>
     );
