@@ -2,8 +2,7 @@ import { Providers } from "@/components";
 import { Toaster } from "@/components/ui/sonner";
 import "@/styles/globals.css";
 import { aeonik, cn, generateMetadata, inter } from "@/utils";
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata = generateMetadata();
 
@@ -20,13 +19,13 @@ export default function RootLayout({
                     aeonik.variable,
                     inter.variable,
                 )}
-            >
+            >    
                 <Providers>
                     <Toaster richColors theme="dark" position="top-right" />
                     {children}
+                    <SpeedInsights />
                 </Providers>
-                <Analytics />
-                <SpeedInsights />
+                
             </body>
         </html>
     );
