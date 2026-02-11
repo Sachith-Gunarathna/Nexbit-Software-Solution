@@ -1,7 +1,7 @@
 import { AnimationContainer, MaxWidthWrapper } from "@/components";
 import MagicBadge from "@/components/ui/magic-badge";
 import { webProjects } from "@/utils/constants/proto";
-import { Cpu, ExternalLink, Globe, Layers, Terminal } from "lucide-react";
+import { ExternalLink, Globe, Layers, Terminal } from "lucide-react";
 import Image from "next/image";
 
 const WebDevelopmentPage = () => {
