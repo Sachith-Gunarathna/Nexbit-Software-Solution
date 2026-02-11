@@ -186,9 +186,9 @@ export const webProjects = [
         id: "web-project"
     },
     {
-        title: "RavanaX Corporate Site",
-        description: "A modern corporate website showcasing RavanaX's services and achievements, built with a focus on performance and user experience.",
-        tags: ["Bootstrap 5"],
+        title: "Smart Zone E-Commerce Platform",
+        description: "A modern e-commerce platform providing a seamless shopping experience with secure payment integration and responsive design.",
+        tags: ["PHP", "Bootstrap 5", "SQL"],
         id: "web-project"
     },
 
