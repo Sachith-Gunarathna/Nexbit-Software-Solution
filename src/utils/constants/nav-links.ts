@@ -20,8 +20,8 @@ export const NAV_LINKS = [
             },
             {
                 title: "Mobile Applications",
-                tagline: "Custom Java-based POS solutions for retail & inventory.",
-                href: "/services/pos-systems",
+                tagline: "Intuitive, cross-platform mobile apps built with React Native.",
+                href: "/services/mobile-applications",
                 icon: Smartphone,
             },
             {
