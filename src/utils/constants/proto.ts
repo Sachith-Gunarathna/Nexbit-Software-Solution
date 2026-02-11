@@ -174,7 +174,7 @@ export const webProjects = [
         id: "web-project"
     },
     {
-        title: "Inernational Science Society School Web Application",
+        title: "International School Of Sport Science Web Application",
         description: "A comprehensive educational ecosystem integrating an automated student management system with a secure eCommerce platform for academic resources.",
         tags: ["PHP", "Bootstrap 5", "SQL"],
         id: "web-project"
