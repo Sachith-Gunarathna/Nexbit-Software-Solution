@@ -193,3 +193,12 @@ export const webProjects = [
     },
 
 ] as const;
+
+export const customSoftwareProjects = [
+    {
+        title: "POS System",
+        description: "A point-of-sale system designed to streamline retail operations, manage inventory, and provide real-time sales analytics.",
+        tags: ["Java", "Spring Boot", "MySQL"],
+        id: "custom-software-project"
+    },
+] as const;

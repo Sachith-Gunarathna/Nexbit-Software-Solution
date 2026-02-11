@@ -4,7 +4,7 @@ import {
     HelpCircleIcon, 
     NewspaperIcon, 
     PaletteIcon, 
-    StoreIcon 
+    Smartphone, 
 } from "lucide-react";
 
 export const NAV_LINKS = [
@@ -19,10 +19,10 @@ export const NAV_LINKS = [
                 icon: GlobeIcon,
             },
             {
-                title: "POS Systems",
+                title: "Mobile Applications",
                 tagline: "Custom Java-based POS solutions for retail & inventory.",
                 href: "/services/pos-systems",
-                icon: StoreIcon,
+                icon: Smartphone,
             },
             {
                 title: "Custom Software",
