@@ -72,7 +72,7 @@ export const TEAMMEMBERS = [
             facebook: "https://web.facebook.com/thisaga.narayana"
         }
     },
-      {
+    {
         name: "Sachith Gunarathna",
         role: "Lead Software Engineer",
         description: "Lead Software Engineer | Nexcentauri. Full-Stack Developer dedicated to building high-impact software solutions. From Java desktop applications to responsive web platforms, I turn complex requirements into high-performance code.",
@@ -94,7 +94,7 @@ export const TEAMMEMBERS = [
             facebook: "https://web.facebook.com/akash.amarasinghe.2025"
         }
     },
-  
+
     {
         name: "Vihanga Manukulasooriya",
         role: "Senior Software Engineer",
@@ -117,7 +117,7 @@ export const TEAMMEMBERS = [
             facebook: "https://web.facebook.com/pandula.bandara.161"
         }
     },
-    
+
 ] as const;
 
 export const REVIEWS = [
@@ -163,5 +163,33 @@ export const REVIEWS = [
         rating: 4,
         review: "Nexcentuari understood our vision and translated it into a clean, responsive website. The design quality exceeded our expectations."
     },
-    
+
+] as const;
+
+export const webProjects = [
+    {
+        title: "Nexcentuari Corporate Site",
+        description: "A high-performance cinematic website built with Next.js and GSAP, focused on engineering excellence and modern animations.",
+        tags: ["Next.js", "GSAP", "Tailwind"],
+        id: "web-project"
+    },
+    {
+        title: "Inernational Science Society School Web Application",
+        description: "A comprehensive educational ecosystem integrating an automated student management system with a secure eCommerce platform for academic resources.",
+        tags: ["PHP", "Bootstrap 5", "SQL"],
+        id: "web-project"
+    },
+    {
+        title: "RavanaX Corporate Site",
+        description: "A modern corporate website showcasing RavanaX's services and achievements, built with a focus on performance and user experience.",
+        tags: ["Bootstrap 5"],
+        id: "web-project"
+    },
+    {
+        title: "RavanaX Corporate Site",
+        description: "A modern corporate website showcasing RavanaX's services and achievements, built with a focus on performance and user experience.",
+        tags: ["Bootstrap 5"],
+        id: "web-project"
+    },
+
 ] as const;
