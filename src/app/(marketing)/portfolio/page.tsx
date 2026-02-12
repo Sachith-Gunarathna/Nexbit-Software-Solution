@@ -15,7 +15,7 @@ const ViewOurWork = () => {
                     <div className="flex flex-col items-center justify-center text-center max-w-2xl mx-auto">
                         <MagicBadge title="Our Portfolio" />
                         <h1 className="text-3xl md:text-5xl lg:text-6xl font-semibold font-heading mt-6 !leading-tight">
-                            Engineering Digital Solutions for the Next Century
+                            Engineering Digital Solutions for the Nexcentauri
                         </h1>
                         <p className="text-base md:text-lg mt-6 text-muted-foreground leading-relaxed">
                             Explore our latest projects, from custom enterprise systems to high-performance mobile and web applications.
