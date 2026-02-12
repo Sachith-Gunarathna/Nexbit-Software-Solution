@@ -13,10 +13,10 @@ const AnimationContainer = ({ children, className, reverse, delay }: AnimationCo
     return (
         <motion.div
             className={className}
-            initial={{ opacity: 0, y: reverse ? -20 : 20 }}
+            initial={{ opacity: 0, y: reverse ? -10 : 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
-            transition={{ duration: 0.2, delay: delay, ease: 'easeInOut', type: 'spring', stiffness: 260, damping: 20 }}
+            transition={{ duration: 0.2, delay: delay, ease: 'easeOut', type: 'tween', stiffness: 260, damping: 20 }}
         >
             {children}
         </motion.div>
