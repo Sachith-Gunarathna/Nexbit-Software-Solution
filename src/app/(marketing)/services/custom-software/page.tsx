@@ -8,20 +8,18 @@ const CustomerSoftware = () => {
     return (
 
         <MaxWidthWrapper className="mb-40">
-            {/* Header Section */}
             <AnimationContainer delay={0.1}>
                 <div className="flex flex-col items-center justify-center py-10 max-w-lg mx-auto">
                     <MagicBadge title="Web Development" />
                     <h1 className="text-2xl md:text-4xl lg:text-5xl font-semibold font-heading text-center mt-6 !leading-tight">
-                        We build custom web solutions for your business
+                        Custom Software Solutions Engineered for Your Business Success
                     </h1>
                     <p className="text-base md:text-lg mt-6 text-center text-muted-foreground">
-                        Engineering reliable, scalable, and future-ready digital systems tailored to your needs.
+                        At Nexcentuari, we specialize in crafting bespoke software solutions that empower businesses to thrive in the digital age. Our expert team of developers and designers work closely with you to understand your unique needs and deliver scalable, high-performance applications that drive growth and innovation.
                     </p>
                 </div>
             </AnimationContainer>
 
-            {/* Portfolio Cards Grid */}
             <AnimationContainer delay={0.2}>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
                     {customSoftwareProjects.map((project) => (
@@ -72,20 +70,18 @@ const CustomerSoftware = () => {
                 </div>
             </AnimationContainer>
 
-            {/* Technical Expertise Details */}
             <AnimationContainer delay={0.3}>
                 <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-16 items-center border-t border-border/50 pt-20">
                     <div>
                         <h2 className="text-3xl font-bold font-heading mb-6">Our Tech Stack & Expertise</h2>
                         <p className="text-muted-foreground leading-relaxed mb-8">
                             At Nexcentuari, we leverage the latest technologies to build systems that stand the test of time.
-                            From frontend interactivity to backend stability, every line of code is written with performance in mind.
                         </p>
                         <div className="space-y-4">
                             {[
-                                { title: "Frontend Excellence", desc: "Next.js, React, and GSAP for cinematic experiences." },
-                                { title: "Robust Backends", desc: "Java, Hibernate, and Node.js for secure data management." },
-                                { title: "Scalable Infrastructure", desc: "Cloud-ready deployments with a focus on 99.9% uptime." }
+                                { title: "Next.js & React", desc: "Building dynamic, high-performance web applications with a focus on SEO and user experience." },
+                                { title: "Java & Spring Boot", desc: "Creating robust backend systems and APIs that power enterprise applications." },
+                                { title: "Cloud Platforms", desc: "Deploying scalable solutions on AWS, Azure, and Google Cloud for global reach." },
                             ].map((detail, i) => (
                                 <div key={i} className="flex gap-4">
                                     <div className="mt-1"><Layers className="w-5 h-5 text-primary" /></div>
@@ -99,11 +95,12 @@ const CustomerSoftware = () => {
                     </div>
                     <div className="bg-primary/5 rounded-[2.5rem] p-10 border border-primary/10 relative overflow-hidden group">
                         <Terminal className="w-12 h-12 text-primary mb-6" />
-                        <h3 className="text-2xl font-bold mb-4 italic">&quot;Code is the foundation of the next century.&quot;</h3>
+                        <h3 className="text-2xl font-bold mb-4 italic">
+                            &quot;Precision engineering for a complex digital age.&quot;
+                        </h3>
                         <p className="text-muted-foreground italic">
-                            We don&lsquo;t just build websites; we engineer digital realities that empower businesses to grow globally.
+                            We don&apos;t just deliver software; we architect scalable custom solutions that solve real-world operational challenges and drive sustainable business growth.
                         </p>
-                        {/* Decorative Blur */}
                         <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-primary/20 blur-[80px] rounded-full group-hover:bg-primary/30 transition-all"></div>
                     </div>
                 </div>
