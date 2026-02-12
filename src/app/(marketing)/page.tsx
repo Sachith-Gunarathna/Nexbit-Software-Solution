@@ -3,15 +3,20 @@ import { BentoCard, BentoGrid, CARDS } from "@/components/ui/bento-grid";
 import { BorderBeam } from "@/components/ui/border-beam";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { LampContainer } from "@/components/ui/lamp";
 import MagicBadge from "@/components/ui/magic-badge";
 import MagicCard from "@/components/ui/magic-card";
 import { COMPANIES, PROCESS } from "@/utils";
 import { REVIEWS, TEAMMEMBERS } from "@/utils/constants/proto";
 import { currentUser } from "@clerk/nextjs/server";
 import { ArrowRightIcon, Facebook, Github, Linkedin, StarIcon } from "lucide-react";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+
+const LampContainer = dynamic(() => import('@/components/ui/lamp').then(mod => mod.LampContainer), { 
+    ssr: false,
+    loading: () => <div className="h-[400px] w-full bg-transparent" />
+});
 
 const HomePage = async () => {
 
@@ -67,7 +72,9 @@ const HomePage = async () => {
                                 alt="Dashboard"
                                 width={1200}
                                 height={1200}
-                                quality={100}
+                                quality={90}
+                                priority
+                                loading="eager"
                                 className="rounded-md lg:rounded-xl bg-foreground/10 ring-1 ring-border"
                             />
                             <div className="absolute -bottom-4 inset-x-0 w-full h-1/2 bg-gradient-to-t from-background z-40"></div>
