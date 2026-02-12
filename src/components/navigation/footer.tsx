@@ -31,23 +31,23 @@ const Footer = () => {
                                 </h3>
                                 <ul className="mt-4 text-sm text-muted-foreground">
                                     <li className="mt-2">
-                                        <Link href="#" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="/services/web-development" className="hover:text-foreground transition-all duration-300">
                                             Web Development
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="#" className="hover:text-foreground transition-all duration-300">
-                                            POS Systems
+                                        <Link href="/services/mobile-applications" className="hover:text-foreground transition-all duration-300">
+                                            Mobile Applications
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="#" className="hover:text-foreground transition-all duration-300">
-                                            UI/UX Design
-                                        </Link>
-                                    </li>
-                                    <li className="mt-2">
-                                        <Link href="#" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="/services/custom-software" className="hover:text-foreground transition-all duration-300">
                                             Custom Software
+                                        </Link>
+                                    </li>
+                                    <li className="mt-2">
+                                        <Link href="/services/ui-ux-design" className="hover:text-foreground transition-all duration-300">
+                                            UI/UX Design
                                         </Link>
                                     </li>
                                 </ul>

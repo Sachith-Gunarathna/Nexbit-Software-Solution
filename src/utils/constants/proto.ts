@@ -166,7 +166,7 @@ export const REVIEWS = [
 
 ] as const;
 
-export const webProjects = [
+export const Projects = [
     {
         title: "Nexcentuari Corporate Site",
         description: "A high-performance cinematic website built with Next.js and GSAP, focused on engineering excellence and modern animations.",
@@ -191,20 +191,18 @@ export const webProjects = [
         tags: ["PHP", "Bootstrap 5", "SQL"],
         id: "web-project"
     },
-
-] as const;
-
-export const customSoftwareProjects = [
+    {
+        title: "Dharmasiri Senanayake Central College Web Application",
+        description: "A comprehensive web application for Dharmasiri Senanayake Central College, integrating student management, academic resources, and communication tools.",
+        tags: ["PHP", "Bootstrap 5", "SQL"],
+        id: "web-project"
+    },
     {
         title: "POS System",
         description: "A point-of-sale system designed to streamline retail operations, manage inventory, and provide real-time sales analytics.",
         tags: ["Java", "Spring Boot", "MySQL"],
         id: "custom-software-project"
     },
-] as const;
-
-export const MobileApplication = [
-
     {
         title: "SPARK Chat Application",
         description: "A chat application designed to provide seamless communication with real-time messaging, multimedia sharing, and secure user authentication.",
@@ -213,3 +211,7 @@ export const MobileApplication = [
     },
 
 ] as const;
+
+
+    
+
