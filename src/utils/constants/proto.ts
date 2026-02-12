@@ -202,3 +202,14 @@ export const customSoftwareProjects = [
         id: "custom-software-project"
     },
 ] as const;
+
+export const MobileApplication = [
+
+    {
+        title: "SPARK Chat Application",
+        description: "A chat application designed to provide seamless communication with real-time messaging, multimedia sharing, and secure user authentication.",
+        tags: ["Java", "React Native", "MySQL"],
+        id: "mobile-application"
+    },
+
+] as const;
