@@ -1,13 +1,13 @@
 import { AnimationContainer, MaxWidthWrapper } from "@/components";
 import MagicBadge from "@/components/ui/magic-badge";
-import { webProjects } from "@/utils/constants/proto";
+import { Projects } from "@/utils/constants/proto";
 import { ExternalLink, Globe, Layers, Terminal } from "lucide-react";
 import Image from "next/image";
 
 const WebDevelopmentPage = () => {
     return (
         <MaxWidthWrapper className="mb-40">
-            {/* Header Section */}
+           
             <AnimationContainer delay={0.1}>
                 <div className="flex flex-col items-center justify-center py-10 max-w-lg mx-auto">
                     <MagicBadge title="Web Development" />
@@ -20,10 +20,11 @@ const WebDevelopmentPage = () => {
                 </div>
             </AnimationContainer>
 
-            {/* Portfolio Cards Grid */}
+            
             <AnimationContainer delay={0.2}>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
-                    {webProjects.map((project) => (
+                    {Projects.map((project) => (
+                        ["web-project"].includes(project.id) && (
                         <div
                             key={project.id}
                             className="group relative p-8 rounded-3xl border border-border bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-300 flex flex-col h-full shadow-sm hover:shadow-xl"
@@ -67,6 +68,7 @@ const WebDevelopmentPage = () => {
                                 <span className="ml-2 group-hover/link:translate-x-1 transition-transform">→</span>
                             </div>
                         </div>
+                        )
                     ))}
                 </div>
             </AnimationContainer>
