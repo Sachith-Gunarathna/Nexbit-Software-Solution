@@ -12,7 +12,7 @@ const Contact = () => {
     const [result, setResult] = useState("");
     const [status, setStatus] = useState("idle"); 
 
-    const onSubmit = async (event) => {
+    const onSubmit = async (event:any) => {
         event.preventDefault();
         setStatus("sending");
        
