@@ -172,7 +172,7 @@ const HomePage = async () => {
                 </div>
             </MaxWidthWrapper>
 
-            <MaxWidthWrapper className="py-10">
+            {/* <MaxWidthWrapper className="py-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-center justify-center w-full py-8 max-w-xl mx-auto">
                         <MagicBadge title="Nexcentauri Experts" />
@@ -221,7 +221,7 @@ const HomePage = async () => {
                         ))}
                     </div>
                 </AnimationContainer>
-            </MaxWidthWrapper>
+            </MaxWidthWrapper> */}
 
             <MaxWidthWrapper className="py-10">
                 <AnimationContainer delay={0.1}>
