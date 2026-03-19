@@ -1,17 +1,26 @@
-const express = require('express');
-const router = express.Router();
-const {Resend} = require('resend');
-const { error } = require('node:console');
-
+const { Resend } = require('resend');
 
 const resend = new Resend('re_82WmhYUV_PZbdKfqFW8FtBSUrvUgxwySW');
 
-router.post('/api/send-invoice', async (req, res) => {
+module.exports = async (req, res) => {
+    
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'OPTIONS,POST');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
-    const {email,transactionId,amount,date,stationId} = req.body;
+    if (req.method === 'OPTIONS') {
+        return res.status(200).end();
+    }
 
-    if(!email || !transactionId ||  !amount || !date || !stationId){
-        return res.status(400).json({error: 'Missing required fields'});
+    if (req.method !== 'POST') {
+        return res.status(405).json({ error: 'Method not allowed. Use POST.' });
+    }
+
+    const { email, transactionId, amount, date, stationId } = req.body;
+
+    if (!email || !transactionId || !amount || !stationId) {
+        return res.status(400).json({ error: 'Missing required fields' });
     }
 
    const htmlcontent = `
@@ -211,22 +220,20 @@ router.post('/api/send-invoice', async (req, res) => {
 </html>
     `;
 
-    try {
+try {
         const data = await resend.emails.send({
-            from: 'EcoGrid Network <noreply@nexcentauri.com>',
+            from: 'EcoGrid Network <noreply@nexcentauri.com>', 
             to: email, 
             subject: `EcoGrid Payment Receipt - #${transactionId} ⚡`,
             html: htmlcontent
         });
 
         console.log('Receipt sent! ID:', data.id);
-        res.status(200).json({ success: true, message: 'Receipt sent successfully!' });
+        return res.status(200).json({ success: true, message: 'Receipt sent successfully!' });
 
     } catch (error) {
         console.error('Error sending email:', error);
-        res.status(500).json({ success: false, error: 'Failed to send receipt' });
+        return res.status(500).json({ success: false, error: 'Failed to send receipt' });
     }
 
-});
-
-module.exports = router;
+};
