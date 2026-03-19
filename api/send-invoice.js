@@ -6,7 +6,7 @@ const { error } = require('node:console');
 
 const resend = new Resend('re_82WmhYUV_PZbdKfqFW8FtBSUrvUgxwySW');
 
-router.post('/send-receipt', async (req, res) => {
+router.post('/api/send-invoice', async (req, res) => {
 
     const {email,transactionId,amount,date,stationId} = req.body;
 
