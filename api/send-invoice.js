@@ -17,9 +17,9 @@ module.exports = async (req, res) => {
         return res.status(405).json({ error: 'Method not allowed. Use POST.' });
     }
 
-    const { email, transactionId, amount, date, stationId } = req.body;
+    const { email, transactionId, amount, date, stationId, vehicle } = req.body;
 
-    if (!email || !transactionId || !amount || !stationId) {
+    if (!email || !transactionId || !amount || !stationId || !vehicle) {
         return res.status(400).json({ error: 'Missing required fields' });
     }
 
@@ -186,6 +186,10 @@ module.exports = async (req, res) => {
                 <tr>
                     <td class="label">Station ID</td>
                     <td class="value">${stationId}</td>
+                </tr>
+                <tr>
+                    <td class="label">Vehicle Name</td>
+                    <td class="value">${vehicle}</td>
                 </tr>
                 <tr class="divider">
                     <td class="label">Billed To</td>
