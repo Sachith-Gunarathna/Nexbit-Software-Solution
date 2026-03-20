@@ -23,6 +23,11 @@ module.exports = async (req, res) => {
         return res.status(400).json({ error: 'Missing required fields' });
     }
 
+    const price = parseFloat(amount);
+    if (isNaN(price)) {
+        return res.status(400).json({ error: 'Invalid amount format. Must be a number.' });
+    }
+
    const htmlcontent = `
 <!DOCTYPE html>
 <html>
@@ -169,7 +174,7 @@ module.exports = async (req, res) => {
 
         <div class="amount-box">
             <h2>Payment Successful</h2>
-            <div class="price">Rs. ${amount}</div>
+            <div class="price">Rs. ${price}</div>
             <div class="status">✔ PAID</div>
         </div>
 
@@ -193,7 +198,7 @@ module.exports = async (req, res) => {
                 </tr>
                 <tr class="total-row">
                     <td>TOTAL</td>
-                    <td style="text-align: right;">Rs. ${amount}</td>
+                    <td style="text-align: right;">Rs. ${price}</td>
                 </tr>
             </table>
         </div>
