@@ -1,0 +1,299 @@
+ WARN  Moving eslint that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @types/react that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @types/react-dom that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @types/node that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving postcss that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving prisma that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving eslint-config-next that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving tailwindcss that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving typescript that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @clerk/nextjs that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @hookform/resolvers that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @prisma/client that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-alert-dialog that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-accordion that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-aspect-ratio that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-avatar that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-checkbox that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-context-menu that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-collapsible that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-dialog that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-dropdown-menu that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-label that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-hover-card that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-menubar that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-popover that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-navigation-menu that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-progress that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-radio-group that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-scroll-area that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-select that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-separator that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-slider that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-slot that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-switch that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-tabs that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-toast that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-toggle that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-toggle-group that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @radix-ui/react-tooltip that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @tanstack/react-query that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving class-variance-authority that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving @vercel/speed-insights that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving clsx that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving cmdk that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving cors that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving date-fns that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving embla-carousel-react that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving express that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving html-react-parser that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving firebase-admin that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving framer-motion that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving input-otp that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving lucide-react that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving mini-svg-data-uri that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving next that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving next-themes that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving nodemailer that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving react that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving react-day-picker that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving react-dom that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving react-hook-form that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving react-resizable-panels that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving resend that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving tailwind-merge that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving sonner that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving tailwind-scrollbar-hide that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving tailwindcss-animate that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving usehooks-ts that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving unique-names-generator that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving vaul that was installed by a different package manager to "node_modules/.ignored"
+ WARN  Moving zod that was installed by a different package manager to "node_modules/.ignored"
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 2, reused 0, downloaded 0, added 0
+Progress: resolved 5, reused 0, downloaded 0, added 0
+ WARN  deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+Progress: resolved 11, reused 0, downloaded 1, added 0
+Progress: resolved 13, reused 0, downloaded 2, added 0
+Progress: resolved 20, reused 0, downloaded 9, added 0
+Progress: resolved 30, reused 0, downloaded 18, added 0
+Progress: resolved 39, reused 0, downloaded 26, added 0
+ WARN  Tarball download average speed 31 KiB/s (size 38 KiB) is below 50 KiB/s: https://registry.npmjs.org/@radix-ui/react-scroll-area/-/react-scroll-area-1.2.10.tgz (GET)
+Progress: resolved 43, reused 0, downloaded 32, added 0
+ WARN  Tarball download average speed 24 KiB/s (size 40 KiB) is below 50 KiB/s: https://registry.npmjs.org/@radix-ui/react-toast/-/react-toast-1.2.15.tgz (GET)
+Progress: resolved 45, reused 0, downloaded 35, added 0
+ WARN  Tarball download average speed 13 KiB/s (size 22 KiB) is below 50 KiB/s: https://registry.npmjs.org/express/-/express-5.2.1.tgz (GET)
+Progress: resolved 51, reused 0, downloaded 37, added 0
+ WARN  Request took 10339ms: https://registry.npmjs.org/@radix-ui%2Freact-switch
+ WARN  Request took 13582ms: https://registry.npmjs.org/@radix-ui%2Freact-popover
+Progress: resolved 56, reused 0, downloaded 41, added 0
+Progress: resolved 58, reused 0, downloaded 46, added 0
+ WARN  Tarball download average speed 26 KiB/s (size 89 KiB) is below 50 KiB/s: https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.95.2.tgz (GET)
+ WARN  Request took 15712ms: https://registry.npmjs.org/pnpm
+Progress: resolved 59, reused 0, downloaded 50, added 0
+ WARN  Tarball download average speed 36 KiB/s (size 68 KiB) is below 50 KiB/s: https://registry.npmjs.org/sonner/-/sonner-1.7.4.tgz (GET)
+Progress: resolved 59, reused 0, downloaded 54, added 0
+Progress: resolved 60, reused 0, downloaded 55, added 0
+Progress: resolved 60, reused 0, downloaded 56, added 0
+ WARN  Request took 11043ms: https://registry.npmjs.org/framer-motion
+ WARN  Tarball download average speed 32 KiB/s (size 218 KiB) is below 50 KiB/s: https://registry.npmjs.org/react-resizable-panels/-/react-resizable-panels-2.1.9.tgz (GET)
+Progress: resolved 61, reused 0, downloaded 57, added 0
+Progress: resolved 61, reused 0, downloaded 58, added 0
+ WARN  Request took 22885ms: https://registry.npmjs.org/eslint-config-next
+Progress: resolved 62, reused 0, downloaded 58, added 0
+ WARN  Request took 23282ms: https://registry.npmjs.org/tailwindcss
+ WARN  Request took 13874ms: https://registry.npmjs.org/react-hook-form
+Progress: resolved 64, reused 0, downloaded 59, added 0
+ WARN  Request took 14250ms: https://registry.npmjs.org/react-dom
+ WARN  Request took 24718ms: https://registry.npmjs.org/@clerk%2Fnextjs
+Progress: resolved 66, reused 0, downloaded 59, added 0
+ WARN  Request took 26473ms: https://registry.npmjs.org/@types%2Fnode
+Progress: resolved 67, reused 0, downloaded 59, added 0
+ WARN  Request took 27424ms: https://registry.npmjs.org/typescript
+Progress: resolved 68, reused 0, downloaded 60, added 0
+Progress: resolved 68, reused 0, downloaded 61, added 0
+Progress: resolved 68, reused 0, downloaded 62, added 0
+Progress: resolved 68, reused 0, downloaded 63, added 0
+Progress: resolved 68, reused 0, downloaded 64, added 0
+Progress: resolved 68, reused 0, downloaded 65, added 0
+ WARN  Request took 25746ms: https://registry.npmjs.org/next
+ WARN  deprecated next@14.2.13: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/security-update-2025-12-11 for more details.
+Progress: resolved 69, reused 0, downloaded 65, added 0
+Progress: resolved 69, reused 0, downloaded 66, added 0
+Progress: resolved 69, reused 0, downloaded 67, added 0
+Progress: resolved 69, reused 0, downloaded 68, added 0
+ WARN  Request took 45811ms: https://registry.npmjs.org/prisma
+Progress: resolved 70, reused 0, downloaded 68, added 0
+ WARN  Request took 49554ms: https://registry.npmjs.org/@prisma%2Fclient
+Progress: resolved 71, reused 0, downloaded 68, added 0
+Progress: resolved 80, reused 0, downloaded 68, added 0
+Progress: resolved 100, reused 0, downloaded 79, added 0
+Progress: resolved 115, reused 0, downloaded 95, added 0
+Progress: resolved 122, reused 0, downloaded 104, added 0
+Progress: resolved 131, reused 0, downloaded 110, added 0
+Progress: resolved 138, reused 0, downloaded 119, added 0
+ WARN  Tarball download average speed 49 KiB/s (size 71 KiB) is below 50 KiB/s: https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.12.2.tgz (GET)
+Progress: resolved 142, reused 0, downloaded 126, added 0
+Progress: resolved 148, reused 0, downloaded 130, added 0
+Progress: resolved 152, reused 0, downloaded 135, added 0
+ WARN  Tarball download average speed 43 KiB/s (size 181 KiB) is below 50 KiB/s: https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.37.5.tgz (GET)
+Progress: resolved 157, reused 0, downloaded 145, added 0
+Progress: resolved 162, reused 0, downloaded 149, added 0
+Progress: resolved 163, reused 0, downloaded 153, added 0
+Progress: resolved 166, reused 0, downloaded 156, added 0
+Progress: resolved 173, reused 0, downloaded 158, added 0
+Progress: resolved 182, reused 0, downloaded 164, added 0
+Progress: resolved 191, reused 0, downloaded 173, added 0
+ WARN  Tarball download average speed 30 KiB/s (size 401 KiB) is below 50 KiB/s: https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.32.0.tgz (GET)
+ WARN  Tarball download average speed 41 KiB/s (size 412 KiB) is below 50 KiB/s: https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz (GET)
+Progress: resolved 195, reused 0, downloaded 176, added 0
+Progress: resolved 202, reused 0, downloaded 184, added 0
+Progress: resolved 203, reused 0, downloaded 188, added 0
+Progress: resolved 209, reused 0, downloaded 194, added 0
+ WARN  Request took 15511ms: https://registry.npmjs.org/@clerk%2Fshared
+Progress: resolved 215, reused 0, downloaded 195, added 0
+Progress: resolved 218, reused 0, downloaded 197, added 0
+Progress: resolved 219, reused 0, downloaded 198, added 0
+ WARN  Request took 18641ms: https://registry.npmjs.org/@clerk%2Fbackend
+Progress: resolved 220, reused 0, downloaded 198, added 0
+ WARN  Tarball download average speed 38 KiB/s (size 302 KiB) is below 50 KiB/s: https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.95.2.tgz (GET)
+Progress: resolved 220, reused 0, downloaded 201, added 0
+ WARN  Tarball download average speed 18 KiB/s (size 23 KiB) is below 50 KiB/s: https://registry.npmjs.org/motion-dom/-/motion-dom-11.18.1.tgz (GET)
+Progress: resolved 221, reused 0, downloaded 202, added 0
+Progress: resolved 221, reused 0, downloaded 203, added 0
+Progress: resolved 221, reused 0, downloaded 204, added 0
+Progress: resolved 221, reused 0, downloaded 205, added 0
+ WARN  Request took 24704ms: https://registry.npmjs.org/@clerk%2Ftypes
+Progress: resolved 222, reused 0, downloaded 206, added 0
+Progress: resolved 222, reused 0, downloaded 207, added 0
+Progress: resolved 223, reused 0, downloaded 207, added 0
+ WARN  Tarball download average speed 44 KiB/s (size 261 KiB) is below 50 KiB/s: https://registry.npmjs.org/@google-cloud/storage/-/storage-7.19.0.tgz (GET)
+Progress: resolved 223, reused 0, downloaded 209, added 0
+Progress: resolved 224, reused 0, downloaded 209, added 0
+ WARN  Tarball download average speed 37 KiB/s (size 227 KiB) is below 50 KiB/s: https://registry.npmjs.org/@clerk/shared/-/shared-2.9.2.tgz (GET)
+Progress: resolved 224, reused 0, downloaded 210, added 0
+Progress: resolved 226, reused 0, downloaded 211, added 0
+ WARN  Tarball download average speed 46 KiB/s (size 280 KiB) is below 50 KiB/s: https://registry.npmjs.org/@clerk/backend/-/backend-1.14.1.tgz (GET)
+Progress: resolved 227, reused 0, downloaded 213, added 0
+Progress: resolved 227, reused 0, downloaded 214, added 0
+Progress: resolved 228, reused 0, downloaded 215, added 0
+Progress: resolved 229, reused 0, downloaded 216, added 0
+ WARN  Request took 35703ms: https://registry.npmjs.org/@clerk%2Fclerk-react
+ WARN  Request took 39154ms: https://registry.npmjs.org/eslint-plugin-react-hooks
+ WARN  Request took 39488ms: https://registry.npmjs.org/@next%2Feslint-plugin-next
+Progress: resolved 237, reused 0, downloaded 219, added 0
+Progress: resolved 238, reused 0, downloaded 219, added 0
+Progress: resolved 240, reused 0, downloaded 220, added 0
+ WARN  Tarball download average speed 35 KiB/s (size 661 KiB) is below 50 KiB/s: https://registry.npmjs.org/@google-cloud/firestore/-/firestore-7.11.6.tgz (GET)
+Progress: resolved 242, reused 0, downloaded 225, added 0
+ WARN  Request took 26407ms: https://registry.npmjs.org/@next%2Fswc-darwin-arm64
+ WARN  Tarball download average speed 45 KiB/s (size 135 KiB) is below 50 KiB/s: https://registry.npmjs.org/svix/-/svix-1.86.0.tgz (GET)
+Progress: resolved 243, reused 0, downloaded 227, added 0
+ WARN  Request took 26833ms: https://registry.npmjs.org/@next%2Fswc-win32-x64-msvc
+Progress: resolved 247, reused 0, downloaded 231, added 0
+ WARN  Request took 26342ms: https://registry.npmjs.org/@next%2Fswc-linux-arm64-gnu
+ WARN  Tarball download average speed 17 KiB/s (size 425 KiB) is below 50 KiB/s: https://registry.npmjs.org/node-forge/-/node-forge-1.4.0.tgz (GET)
+Progress: resolved 250, reused 0, downloaded 232, added 0
+ WARN  Request took 31199ms: https://registry.npmjs.org/@firebase%2Fdatabase-compat
+ WARN  Request took 26476ms: https://registry.npmjs.org/@next%2Fswc-win32-ia32-msvc
+ WARN  Request took 29915ms: https://registry.npmjs.org/@next%2Fswc-darwin-x64
+Progress: resolved 254, reused 0, downloaded 234, added 0
+Progress: resolved 258, reused 0, downloaded 234, added 0
+ WARN  Request took 26490ms: https://registry.npmjs.org/@next%2Fswc-linux-arm64-musl
+ WARN  Request took 26101ms: https://registry.npmjs.org/@next%2Fswc-win32-arm64-msvc
+ WARN  Request took 20761ms: https://registry.npmjs.org/caniuse-lite
+Progress: resolved 265, reused 0, downloaded 235, added 0
+Progress: resolved 269, reused 0, downloaded 240, added 0
+ WARN  Request took 32941ms: https://registry.npmjs.org/@next%2Fswc-linux-x64-gnu
+ WARN  Request took 32977ms: https://registry.npmjs.org/@next%2Fswc-linux-x64-musl
+Progress: resolved 276, reused 0, downloaded 246, added 0
+Progress: resolved 281, reused 0, downloaded 250, added 0
+Progress: resolved 296, reused 0, downloaded 262, added 0
+Progress: resolved 312, reused 0, downloaded 278, added 0
+Progress: resolved 333, reused 0, downloaded 299, added 0
+Progress: resolved 348, reused 0, downloaded 315, added 0
+Progress: resolved 367, reused 0, downloaded 333, added 0
+Progress: resolved 379, reused 0, downloaded 347, added 0
+Progress: resolved 404, reused 0, downloaded 373, added 0
+ WARN  Request took 29172ms: https://registry.npmjs.org/scheduler
+Progress: resolved 416, reused 0, downloaded 398, added 0
+Progress: resolved 416, reused 0, downloaded 403, added 0
+ WARN  Request took 63208ms: https://registry.npmjs.org/@typescript-eslint%2Fparser
+Progress: resolved 417, reused 0, downloaded 403, added 0
+Progress: resolved 438, reused 0, downloaded 403, added 0
+Progress: resolved 451, reused 0, downloaded 419, added 0
+Progress: resolved 458, reused 0, downloaded 437, added 0
+Progress: resolved 462, reused 0, downloaded 440, added 0
+ WARN  Tarball download average speed 30 KiB/s (size 66 KiB) is below 50 KiB/s: https://registry.npmjs.org/glob/-/glob-10.3.10.tgz (GET)
+Progress: resolved 474, reused 0, downloaded 445, added 0
+Progress: resolved 479, reused 0, downloaded 450, added 0
+ WARN  Tarball download average speed 43 KiB/s (size 99 KiB) is below 50 KiB/s: https://registry.npmjs.org/minimatch/-/minimatch-9.0.9.tgz (GET)
+Progress: resolved 492, reused 0, downloaded 452, added 0
+ WARN  Request took 47286ms: https://registry.npmjs.org/@next%2Fenv
+Progress: resolved 504, reused 0, downloaded 456, added 0
+Progress: resolved 508, reused 0, downloaded 460, added 0
+Progress: resolved 513, reused 0, downloaded 470, added 0
+ WARN  Tarball download average speed 19 KiB/s (size 99 KiB) is below 50 KiB/s: https://registry.npmjs.org/path-scurry/-/path-scurry-1.11.1.tgz (GET)
+Progress: resolved 524, reused 0, downloaded 477, added 0
+ WARN  Request took 59709ms: https://registry.npmjs.org/@firebase%2Fdatabase-types
+Progress: resolved 543, reused 0, downloaded 491, added 0
+Progress: resolved 562, reused 0, downloaded 515, added 0
+ WARN  Request took 11805ms: https://registry.npmjs.org/@typescript-eslint%2Fscope-manager
+Progress: resolved 577, reused 0, downloaded 521, added 0
+ WARN  Tarball download average speed 18 KiB/s (size 21 KiB) is below 50 KiB/s: https://registry.npmjs.org/@pkgjs/parseargs/-/parseargs-0.11.0.tgz (GET)
+Progress: resolved 578, reused 0, downloaded 528, added 0
+Progress: resolved 587, reused 0, downloaded 540, added 0
+Progress: resolved 597, reused 0, downloaded 549, added 0
+ WARN  Tarball download average speed 48 KiB/s (size 581 KiB) is below 50 KiB/s: https://registry.npmjs.org/axe-core/-/axe-core-4.11.1.tgz (GET)
+Progress: resolved 604, reused 0, downloaded 556, added 0
+Progress: resolved 612, reused 0, downloaded 563, added 0
+Progress: resolved 624, reused 0, downloaded 574, added 0
+Progress: resolved 630, reused 0, downloaded 582, added 0
+Progress: resolved 640, reused 0, downloaded 586, added 0
+ WARN  Tarball download average speed 29 KiB/s (size 30 KiB) is below 50 KiB/s: https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.2.tgz (GET)
+ WARN  Tarball download average speed 15 KiB/s (size 194 KiB) is below 50 KiB/s: https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.23.tgz (GET)
+Progress: resolved 645, reused 0, downloaded 599, added 0
+ WARN  Tarball download average speed 49 KiB/s (size 81 KiB) is below 50 KiB/s: https://registry.npmjs.org/@js-sdsl/ordered-map/-/ordered-map-4.4.2.tgz (GET)
+Progress: resolved 661, reused 0, downloaded 616, added 0
+ WARN  Request took 10008ms: https://registry.npmjs.org/@firebase%2Fdatabase
+Progress: resolved 679, reused 0, downloaded 626, added 0
+Progress: resolved 690, reused 0, downloaded 643, added 0
+Progress: resolved 690, reused 0, downloaded 655, added 0
+ WARN  Tarball download average speed 22 KiB/s (size 64 KiB) is below 50 KiB/s: https://registry.npmjs.org/yargs/-/yargs-17.7.2.tgz (GET)
+Progress: resolved 692, reused 0, downloaded 656, added 0
+Progress: resolved 697, reused 0, downloaded 659, added 0
+ WARN  Tarball download average speed 17 KiB/s (size 27 KiB) is below 50 KiB/s: https://registry.npmjs.org/yargs-parser/-/yargs-parser-21.1.1.tgz (GET)
+Progress: resolved 698, reused 0, downloaded 663, added 0
+ WARN  Tarball download average speed 9 KiB/s (size 38 KiB) is below 50 KiB/s: https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.0.tgz (GET)
+Progress: resolved 700, reused 0, downloaded 666, added 0
+ WARN  Request took 16324ms: https://registry.npmjs.org/@firebase%2Fapp-types
+Progress: resolved 701, reused 0, downloaded 668, added 0
+ WARN  Request took 98828ms: https://registry.npmjs.org/@prisma%2Fengines
+Progress: resolved 702, reused 0, downloaded 668, added 0
+ WARN  Request took 22575ms: https://registry.npmjs.org/@firebase%2Futil
+ WARN  Request took 30700ms: https://registry.npmjs.org/react-is
+Progress: resolved 710, reused 0, downloaded 669, added 0
+Progress: resolved 712, reused 0, downloaded 672, added 0
+Progress: resolved 722, reused 0, downloaded 683, added 0
+ WARN  Tarball download average speed 31 KiB/s (size 39 KiB) is below 50 KiB/s: https://registry.npmjs.org/confbox/-/confbox-0.2.4.tgz (GET)
+Progress: resolved 723, reused 0, downloaded 683, added 0
+Progress: resolved 730, reused 0, downloaded 686, added 0
+Progress: resolved 731, reused 0, downloaded 690, added 0
+Progress: resolved 731, reused 0, downloaded 691, added 0
+Progress: resolved 731, reused 0, downloaded 693, added 0
+Progress: resolved 731, reused 0, downloaded 694, added 0
+ WARN  Tarball download average speed 48 KiB/s (size 218 KiB) is below 50 KiB/s: https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.6.7.tgz (GET)
+Progress: resolved 731, reused 0, downloaded 696, added 0
+ WARN  Tarball download average speed 25 KiB/s (size 217 KiB) is below 50 KiB/s: https://registry.npmjs.org/@firebase/util/-/util-1.15.0.tgz (GET)
+Progress: resolved 731, reused 0, downloaded 697, added 0
+ WARN  Request took 49521ms: https://registry.npmjs.org/@typescript-eslint%2Fvisitor-keys
+Progress: resolved 732, reused 0, downloaded 697, added 0
+Progress: resolved 732, reused 0, downloaded 698, added 0
+ WARN  Request took 51966ms: https://registry.npmjs.org/@typescript-eslint%2Ftypes
+Progress: resolved 734, reused 0, downloaded 698, added 0
+Progress: resolved 734, reused 0, downloaded 699, added 0
+Progress: resolved 736, reused 0, downloaded 699, added 0
+Progress: resolved 736, reused 0, downloaded 700, added 0
+Progress: resolved 739, reused 0, downloaded 704, added 0
+Progress: resolved 740, reused 0, downloaded 706, added 0
+Progress: resolved 740, reused 0, downloaded 707, added 0
