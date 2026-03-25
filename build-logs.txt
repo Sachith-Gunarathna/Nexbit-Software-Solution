@@ -1,0 +1,672 @@
+
+> linkify@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.13
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+
+./src/components/ui/animated-background.tsx
+72:8  Warning: React Hook useEffect has a missing dependency: 'generateSquares'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+91:55  Warning: The ref value 'containerRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'containerRef.current' to a variable inside the effect, and use that variable in the cleanup function.  react-hooks/exhaustive-deps
+
+./src/components/ui/particles.tsx
+82:8  Warning: React Hook useEffect has missing dependencies: 'animate' and 'initCanvas'. Either include them or remove the dependency array.  react-hooks/exhaustive-deps
+86:8  Warning: React Hook useEffect has a missing dependency: 'onMouseMove'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+90:8  Warning: React Hook useEffect has a missing dependency: 'initCanvas'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+   Collecting page data ...
+   Generating static pages (0/25) ...
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/support". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/services/custom-software". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/changelog". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/_not-found". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/portfolio". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/services/web-development". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/resources/blog". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/features/link-shortening". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/resources/help". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/services/mobile-applications". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+   Generating static pages (6/25) 
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/privacy". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/auth/sign-in". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/auth/sign-up". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/features/qr-codes". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/auth/auth-callback". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/dashboard". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/about". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/enterprise". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/features/password-protection". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/features/analytics". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/terms". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/contact". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+   Generating static pages (12/25) 
+   Generating static pages (18/25) 
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546) {
+  digest: '3795016952'
+}
+
+Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:162061)
+    at C:\Users\MY\Documents\Nexbit-Software-Solution\.next\server\chunks\994.js:5:154591
+    at nj (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nM (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61156)
+    at nN (C:\Users\MY\Documents\Nexbit-Software-Solution\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+ ✓ Generating static pages (25/25)
+
+> Export encountered errors on following paths:
+	/(main)/dashboard/page: /dashboard
+	/(marketing)/about/page: /about
+	/(marketing)/changelog/page: /changelog
+	/(marketing)/contact/page: /contact
+	/(marketing)/enterprise/page: /enterprise
+	/(marketing)/features/analytics/page: /features/analytics
+	/(marketing)/features/link-shortening/page: /features/link-shortening
+	/(marketing)/features/password-protection/page: /features/password-protection
+	/(marketing)/features/qr-codes/page: /features/qr-codes
+	/(marketing)/page: /
+	/(marketing)/portfolio/page: /portfolio
+	/(marketing)/privacy/page: /privacy
+	/(marketing)/resources/blog/page: /resources/blog
+	/(marketing)/resources/help/page: /resources/help
+	/(marketing)/services/custom-software/page: /services/custom-software
+	/(marketing)/services/mobile-applications/page: /services/mobile-applications
+	/(marketing)/services/web-development/page: /services/web-development
+	/(marketing)/support/page: /support
+	/(marketing)/terms/page: /terms
+	/_not-found/page: /_not-found
+	/auth/auth-callback/page: /auth/auth-callback
+	/auth/sign-in/page: /auth/sign-in
+	/auth/sign-up/page: /auth/sign-up

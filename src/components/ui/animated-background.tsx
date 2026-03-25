@@ -69,10 +69,12 @@ export function AnimatedBackground({
         if (dimensions.width && dimensions.height) {
             setSquares(generateSquares(numSquares));
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [dimensions, numSquares]);
 
     // Resize observer to update container dimensions
     useEffect(() => {
+        const container = containerRef.current;
         const resizeObserver = new ResizeObserver((entries) => {
             for (let entry of entries) {
                 setDimensions({
@@ -82,13 +84,13 @@ export function AnimatedBackground({
             }
         });
 
-        if (containerRef.current) {
-            resizeObserver.observe(containerRef.current);
+        if (container) {
+            resizeObserver.observe(container);
         }
 
         return () => {
-            if (containerRef.current) {
-                resizeObserver.unobserve(containerRef.current);
+            if (container) {
+                resizeObserver.unobserve(container);
             }
         };
     }, [containerRef]);
