@@ -1,29 +1,32 @@
-const { Resend } = require('resend');
+import { NextResponse } from 'next/server';
+import { Resend } from 'resend';
 
 const resend = new Resend('re_82WmhYUV_PZbdKfqFW8FtBSUrvUgxwySW');
 
-module.exports = async (req, res) => {
-    
-    res.setHeader('Access-Control-Allow-Credentials', true);
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'OPTIONS,POST');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+const corsHeaders = {
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'OPTIONS, POST',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Credentials': 'true',
+};
 
-    if (req.method === 'OPTIONS') {
-        return res.status(200).end();
-    }
+export async function OPTIONS() {
+    return NextResponse.json({}, { headers: corsHeaders });
+}
 
-    if (req.method !== 'POST') {
-        return res.status(405).json({ error: 'Method not allowed. Use POST.' });
-    }
+export async function POST(req: Request) {
+    try {
+        const body = await req.json();
+        const { email, transactionId, amount, date, stationId, vehicle } = body;
 
-    const { email, transactionId, amount, date, stationId, vehicle } = req.body;
+        if (!email || !transactionId || !amount || !stationId || !vehicle) {
+            return NextResponse.json(
+                { error: 'Missing required fields' },
+                { status: 400, headers: corsHeaders }
+            );
+        }
 
-    if (!email || !transactionId || !amount || !stationId || !vehicle) {
-        return res.status(400).json({ error: 'Missing required fields' });
-    }
-
-   const htmlcontent = `
+        const htmlcontent = `
 <!DOCTYPE html>
 <html>
 <head>
@@ -222,22 +225,34 @@ module.exports = async (req, res) => {
 
 </body>
 </html>
-    `;
+        `;
 
-try {
-        const data = await resend.emails.send({
-            from: 'EcoGrid Network <noreply@nexcentauri.com>', 
-            to: email, 
+        const { data, error: resendError } = await resend.emails.send({
+            from: 'EcoGrid Network <noreply@nexcentauri.com>',
+            to: email,
             subject: `EcoGrid Payment Receipt - #${transactionId} ⚡`,
             html: htmlcontent
         });
 
-        console.log('Receipt sent! ID:', data.id);
-        return res.status(200).json({ success: true, message: 'Receipt sent successfully!' });
+        if (resendError) {
+            console.error('Error sending email:', resendError);
+            return NextResponse.json(
+                { success: false, error: 'Failed to send receipt' },
+                { status: 500, headers: corsHeaders }
+            );
+        }
+
+        console.log('Receipt sent! ID:', data?.id);
+        return NextResponse.json(
+            { success: true, message: 'Receipt sent successfully!' },
+            { status: 200, headers: corsHeaders }
+        );
 
     } catch (error) {
         console.error('Error sending email:', error);
-        return res.status(500).json({ success: false, error: 'Failed to send receipt' });
+        return NextResponse.json(
+            { success: false, error: 'Failed to send receipt' },
+            { status: 500, headers: corsHeaders }
+        );
     }
-
-};
+}
