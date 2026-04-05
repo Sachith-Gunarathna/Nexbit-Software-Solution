@@ -1,7 +1,7 @@
 import { AnimationContainer, MaxWidthWrapper } from "@/components";
 import MagicBadge from "@/components/ui/magic-badge";
 import {  Projects } from "@/utils/constants/proto";
-import { Cpu, ExternalLink, Layers, Terminal } from "lucide-react";
+import { Cpu, ExternalLink, Layers, Link, Terminal } from "lucide-react";
 import Image from "next/image";
 
 const CustomerSoftware = () => {
@@ -62,10 +62,13 @@ const CustomerSoftware = () => {
                                 {project.description}
                             </p>
 
-                            <div className="mt-auto flex items-center text-sm font-medium text-primary cursor-pointer group/link">
+                           <Link 
+                                href={`projects/${project.id}`} 
+                                className="mt-auto flex items-center text-sm font-medium text-primary cursor-pointer group/link"
+                            >
                                 View Details
                                 <span className="ml-2 group-hover/link:translate-x-1 transition-transform">→</span>
-                            </div>
+                            </Link>
                         </div>
                         )
                     ))}
