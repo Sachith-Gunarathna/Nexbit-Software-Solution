@@ -12,10 +12,10 @@ const CustomerSoftware = () => {
                 <div className="flex flex-col items-center justify-center py-10 max-w-lg mx-auto">
                     <MagicBadge title="Web Development" />
                     <h1 className="text-2xl md:text-4xl lg:text-5xl font-semibold font-heading text-center mt-6 !leading-tight">
-                        Custom Software Solutions Engineered for Your Business Success
+                        Smart Software Solutions Engineered for Your Business Success
                     </h1>
                     <p className="text-base md:text-lg mt-6 text-center text-muted-foreground">
-                        At Nexcentuari, we specialize in crafting bespoke software solutions that empower businesses to thrive in the digital age. Our expert team of developers and designers work closely with you to understand your unique needs and deliver scalable, high-performance applications that drive growth and innovation.
+                        At Nexcentuari, we specialize in crafting bespoke software, from high-performance web applications to AI-powered, offline-first Desktop POS systems. We deliver scalable solutions that solve real operational challenges and drive growth.
                     </p>
                 </div>
             </AnimationContainer>
@@ -77,13 +77,14 @@ const CustomerSoftware = () => {
                     <div>
                         <h2 className="text-3xl font-bold font-heading mb-6">Our Tech Stack & Expertise</h2>
                         <p className="text-muted-foreground leading-relaxed mb-8">
-                            At Nexcentuari, we leverage the latest technologies to build systems that stand the test of time.
+                            At Nexcentuari, we leverage the latest modern technologies to build fast, secure, and smart systems.
                         </p>
                         <div className="space-y-4">
                             {[
-                                { title: "Next.js & React", desc: "Building dynamic, high-performance web applications with a focus on SEO and user experience." },
-                                { title: "Java & Spring Boot", desc: "Creating robust backend systems and APIs that power enterprise applications." },
-                                { title: "Cloud Platforms", desc: "Deploying scalable solutions on AWS, Azure, and Google Cloud for global reach." },
+                                { title: "React & Electron.js", desc: "Building beautiful web interfaces and powerful cross-platform desktop applications (like modern POS systems)." },
+                                { title: "Node.js & Local DBs", desc: "Creating fast, offline-first backend systems and robust local databases for seamless performance." },
+                                { title: "Cloud & Firebase Sync", desc: "Ensuring real-time data synchronization, cloud backups, and secure hardware licensing." },
+                                { title: "AI & Smart Automations", desc: "Implementing intelligent features like AI-driven inventory prediction and data analytics." },
                             ].map((detail, i) => (
                                 <div key={i} className="flex gap-4">
                                     <div className="mt-1"><Layers className="w-5 h-5 text-primary" /></div>
