@@ -1,9 +1,6 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -15,7 +12,7 @@ datasource db {
 }
 
 model User {
-  id            String    @id @default(cuid()) @map("_id")
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
   clerkId       String?   @unique
   name          String?
   email         String?   @unique
@@ -28,12 +25,12 @@ model User {
   source           String?
   defaultWorkspace String?
 
-  @@index(source)
-  @@index(defaultWorkspace)
+  @@index([source])
+  @@index([defaultWorkspace])
 }
 
 model Link {
-  id         String    @id @default(cuid()) @map("_id")
+  id         String    @id @default(auto()) @map("_id") @db.ObjectId
   domain     String
   key        String
   url        String
@@ -48,7 +45,7 @@ model Link {
   image       String?
 
   user   User?   @relation(fields: [userId], references: [id])
-  userId String?
+  userId String? @db.ObjectId
 
   publicStats Boolean   @default(false)
   clicks      Int       @default(0)
@@ -57,18 +54,20 @@ model Link {
   updatedAt   DateTime  @updatedAt
 
   tags LinkTag[]
+
+  @@unique([domain, key])
 }
 
 model LinkTag {
-  id        String   @id @default(cuid()) @map("_id")
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
   name      String
   color     String   @default("blue")
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   projectId String
   Link      Link?    @relation(fields: [linkId], references: [id])
-  linkId    String?
+  linkId    String?  @db.ObjectId
 
   @@unique([name, projectId])
-  @@index(projectId)
+  @@index([projectId])
 }
