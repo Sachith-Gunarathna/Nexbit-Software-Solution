@@ -86,7 +86,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm text-muted-foreground">Call us</p>
-                                    <p className="font-medium">+94 71 915 6802</p>
+                                    <p className="font-medium">+94 76 314 5020</p>
                                 </div>
                             </div>
 
@@ -96,7 +96,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm text-muted-foreground">Location</p>
-                                    <p className="font-medium">Kurunegala, Sri Lanka</p>
+                                    <p className="font-medium">Alawwa, Sri Lanka</p>
                                 </div>
                             </div>
                         </div>
