@@ -2,16 +2,21 @@ import { AnimationContainer, MaxWidthWrapper } from "@/components";
 import { BentoCard, BentoGrid, CARDS } from "@/components/ui/bento-grid";
 import { BorderBeam } from "@/components/ui/border-beam";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import MagicBadge from "@/components/ui/magic-badge";
 import MagicCard from "@/components/ui/magic-card";
 import { COMPANIES, PROCESS } from "@/utils";
-import { REVIEWS, TEAMMEMBERS } from "@/utils/constants/proto";
+import { REVIEWS } from "@/utils/constants/proto";
 import { currentUser } from "@clerk/nextjs/server";
 import { ArrowRightIcon, Facebook, Github, Linkedin, StarIcon } from "lucide-react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+import sunBurstAnimation from '../../../public/assets/Sun burst weather icon.json';
+
+import Lottie from 'lottie-react';
+import LottieWrapper from "@/components/LottieWrapper";
+import HeroText from "@/components/HeroText"; 
 
 const LampContainer = dynamic(() => import('@/components/ui/lamp').then(mod => mod.LampContainer), { 
     ssr: false,
@@ -28,6 +33,13 @@ const HomePage = async () => {
             <MaxWidthWrapper>
                 <div className="flex flex-col items-center justify-center w-full text-center bg-gradient-to-t from-background">
                     <AnimationContainer className="flex flex-col items-center justify-center w-full text-center">
+                        
+                        {/* 🌟 අලුත් අවුරුදු පහනේ Animation එක */}
+                        <div className="w-150 h-150 md:w-160 md:h-160 mb-6 drop-shadow-[0_0_15px_rgba(255,215,0,0.5)]">
+                            {/* මෙතනට LottieWrapper එක දානවා */}
+                            <LottieWrapper animationData={sunBurstAnimation} />
+                        </div>
+
                         <button className="group relative grid overflow-hidden rounded-full px-4 py-1 shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset] transition-colors duration-200">
                             <span>
                                 <span className="spark mask-gradient absolute inset-0 h-[100%] w-[100%] animate-flip overflow-hidden rounded-full [mask:linear-gradient(white,_transparent_50%)] before:absolute before:aspect-square before:w-[200%] before:rotate-[-90deg] before:animate-rotate before:bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] before:content-[''] before:[inset:0_auto_auto_50%] before:[translate:-50%_-15%]" />
@@ -39,11 +51,8 @@ const HomePage = async () => {
                                 <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
                             </span>
                         </button>
-                        <h1 className="text-foreground text-center py-6 text-5xl font-medium tracking-normal text-balance sm:text-6xl md:text-7xl lg:text-8xl !leading-[1.15] w-full font-heading">
-                            Turn Your Vision into a  <span className="text-transparent bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text inline-bloc">
-                                Digital Reality
-                            </span>
-                        </h1>
+                    
+                        <HeroText />
                         <p className="mb-12 text-lg tracking-tight text-muted-foreground md:text-xl text-balance">
                             Nexcentauri builds custom business systems for any requirement, helping businesses run faster, smarter, and more efficiently. We design complete digital solutions with supporting websites and mobile apps, all tailored to your exact needs.
                             <br className="hidden md:block" />
@@ -172,56 +181,6 @@ const HomePage = async () => {
                 </div>
             </MaxWidthWrapper>
 
-            {/* <MaxWidthWrapper className="py-10">
-                <AnimationContainer delay={0.1}>
-                    <div className="flex flex-col items-center justify-center w-full py-8 max-w-xl mx-auto">
-                        <MagicBadge title="Nexcentauri Experts" />
-                        <h2 className="text-center text-3xl md:text-5xl font-medium mt-6 text-foreground">
-                            Meet the minds behind Nexcentauri
-                        </h2>
-                        <p className="mt-4 text-center text-lg text-muted-foreground">
-                            Our dedicated team of professionals working to deliver high-quality software solutions.
-                        </p>
-                    </div>
-                </AnimationContainer>
-
-                <AnimationContainer delay={0.2}>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
-                        {TEAMMEMBERS.map((member, index) => (
-                            <div key={index} className="group flex flex-col items-center p-8 bg-secondary/10 rounded-3xl border border-border hover:border-primary/50 transition-all duration-300">
-                              
-                                <div className="relative w-32 h-32 rounded-full overflow-hidden mb-6 border-2 border-primary/20 group-hover:border-primary transition-colors">
-                                    <Image
-                                        src={member.image}
-                                        alt={member.name}
-                                        width={128}
-                                        height={128}
-                                        className="object-cover w-full h-full group-hover:grayscale-0 transition-all duration-500"
-                                    />
-                                </div>
-
-                                <h3 className="text-xl font-bold text-foreground">{member.name}</h3>
-                                <p className="text-primary text-sm font-medium mb-3">{member.role}</p>
-                                <p className="text-sm text-muted-foreground text-center mb-6">
-                                    {member.description}
-                                </p>
-   
-                                <div className="flex items-center gap-4">
-                                    <a href={member.links.linkedin} target="_blank" className="p-2 rounded-full bg-secondary hover:bg-primary hover:text-black transition-all">
-                                        <Linkedin size={18} />
-                                    </a>
-                                    <a href={member.links.github} target="_blank" className="p-2 rounded-full bg-secondary hover:bg-primary hover:text-black transition-all">
-                                        <Github size={18} />
-                                    </a>
-                                    <a href={member.links.facebook} target="_blank" className="p-2 rounded-full bg-secondary hover:bg-primary hover:text-black transition-all">
-                                        <Facebook size={18} />
-                                    </a>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </AnimationContainer>
-            </MaxWidthWrapper> */}
 
             <MaxWidthWrapper className="py-10">
                 <AnimationContainer delay={0.1}>
@@ -245,9 +204,6 @@ const HomePage = async () => {
                                             <CardTitle className="text-lg font-medium text-muted-foreground">
                                                 {review.name}
                                             </CardTitle>
-                                            {/* <CardDescription>
-                                                {review.username}
-                                            </CardDescription> */}
                                         </CardHeader>
                                         <CardContent className="space-y-4 pb-4">
                                             <p className="text-muted-foreground">
@@ -273,9 +229,6 @@ const HomePage = async () => {
                                             <CardTitle className="text-lg font-medium text-muted-foreground">
                                                 {review.name}
                                             </CardTitle>
-                                            {/* <CardDescription>
-                                                {review.username}
-                                            </CardDescription> */}
                                         </CardHeader>
                                         <CardContent className="space-y-4 pb-4">
                                             <p className="text-muted-foreground">
@@ -301,9 +254,6 @@ const HomePage = async () => {
                                             <CardTitle className="text-lg font-medium text-muted-foreground">
                                                 {review.name}
                                             </CardTitle>
-                                            {/* <CardDescription>
-                                                {review.username}
-                                            </CardDescription> */}
                                         </CardHeader>
                                         <CardContent className="space-y-4 pb-4">
                                             <p className="text-muted-foreground">
@@ -332,7 +282,7 @@ const HomePage = async () => {
                                 Step into the future of <br /> Digital Innovation
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                                Transform your business with Nexbit&apos;s cutting-edge software solutions. From cinematic websites to enterprise-grade POS systems, we engineer the extraordinary.
+                                Transform your business with Nexcentauri&apos;s cutting-edge software solutions. From cinematic websites to enterprise-grade POS systems, we engineer the extraordinary.
                             </p>
                             <div className="mt-6">
                                 <Button>

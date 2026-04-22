@@ -1,6 +1,6 @@
 import { Providers } from "@/components";
 import { Toaster } from "@/components/ui/sonner";
-import "@/styles/globals.css";
+import "../styles/globals.css";
 import { aeonik, cn, generateMetadata, inter } from "@/utils";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
