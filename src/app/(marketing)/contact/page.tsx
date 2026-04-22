@@ -86,7 +86,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm text-muted-foreground">Call us</p>
-                                    <p className="font-medium">+94 76 314 5020</p>
+                                    <p className="font-medium">+94 76 314 5020 | +94 72 060 9069</p>
                                 </div>
                             </div>
 
