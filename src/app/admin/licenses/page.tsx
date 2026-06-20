@@ -133,7 +133,7 @@ export default function LicenseAdminPage() {
           </div>
           
           <div className="mt-auto border-t border-white/10 py-6 w-full text-[14px] text-white/50">
-            <p>Don't have an account? <a href="#" className="text-white no-underline hover:underline">Sign up</a></p>
+            <p>Don&apos;t have an account? <a href="#" className="text-white no-underline hover:underline">Sign up</a></p>
           </div>
         </div>
       </div>
