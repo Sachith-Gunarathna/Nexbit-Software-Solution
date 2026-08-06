@@ -4,7 +4,7 @@ export const DEFAULT_AVATAR_URL = "https://api.dicebear.com/8.x/initials/svg?bac
 
 export const PAGINATION_LIMIT = 10;
 
-export const COMPANIES = [
+export const TECHSTACKS = [
     {
         name: "Next.js",
         logo: "/assets/next-js-seeklogo.svg",
@@ -18,17 +18,34 @@ export const COMPANIES = [
         logo: "/assets/react-native.svg",
     },
     {
-        name: "Type Script",
+        name: "TypeScript",
         logo: "/assets/type-script.svg",
     },
     {
-        name: "Tailwind Css",
+        name: "Tailwind CSS",
         logo: "/assets/tailwind-css.svg",
     },
     {
-        name: "Netbeans",
-        logo: "/assets/netbeans.svg",
-    }
+        name: "Electron.js",
+        logo: "/assets/electron-js.svg",
+    },
+    {
+        name: "Node.js",
+        logo: "/assets/node-js.svg",
+    },
+    {
+        name: "C++",
+        logo: "/assets/c-plus-plus.svg",
+    },
+    {
+        name: "MySQL",
+        logo: "/assets/mysql.svg",
+    },
+    {
+        name: "PostgreSQL",
+        logo: "/assets/postgresql.svg",
+    },
+
 ] as const;
 
 export const PROCESS = [
@@ -213,5 +230,5 @@ export const Projects = [
 ] as const;
 
 
-    
+
 

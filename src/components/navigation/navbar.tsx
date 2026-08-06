@@ -118,7 +118,7 @@ const Navbar = () => {
 
                     </div>
 
-                    <div className="hidden lg:flex items-center">
+                    {/* <div className="hidden lg:flex items-center">
                         {user ? (
                             <div className="flex items-center">
                                 <Link href="/dashboard" className={buttonVariants({ size: "sm", })}>
@@ -136,7 +136,7 @@ const Navbar = () => {
                                 </Link>
                             </div>
                         )}
-                    </div>
+                    </div> */}
 
                     <MobileNavbar />
 

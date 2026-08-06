@@ -1,6 +1,6 @@
 import { LIST_ITEM_VARIANTS, CHILD_VARIANTS, FADE_IN_VARIANTS, MODAL_VARIANTS } from "./constants/animation";
 import { APP_DOMAIN, APP_HOSTNAMES, APP_NAME } from "./constants/site";
-import { DEFAULT_AVATAR_URL, PAGINATION_LIMIT, COMPANIES, PROCESS } from "./constants/proto";
+import { DEFAULT_AVATAR_URL, PAGINATION_LIMIT, TECHSTACKS, PROCESS } from "./constants/proto";
 import { NAV_LINKS } from "./constants/nav-links";
 import { aeonik, inter } from "./constants/fonts";
 
@@ -10,7 +10,7 @@ import { isValidUrl } from "./functions/urls";
 import { generateMetadata } from "./functions/metadata";
 
 export {
-    
+
     LIST_ITEM_VARIANTS,
     CHILD_VARIANTS,
     APP_DOMAIN,
@@ -21,12 +21,12 @@ export {
     MODAL_VARIANTS,
     PAGINATION_LIMIT,
     NAV_LINKS,
-    COMPANIES,
+    TECHSTACKS,
     PROCESS,
     aeonik,
     inter,
 
-  
+
     cn,
     isValidUrl,
     generateMetadata,
