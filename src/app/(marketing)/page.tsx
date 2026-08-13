@@ -17,6 +17,10 @@ import sunBurstAnimation from '../../../public/assets/Sun burst weather icon.jso
 import Lottie from 'lottie-react';
 import LottieWrapper from "@/components/LottieWrapper";
 import HeroText from "@/components/HeroText";
+const PosLiveStatus = dynamic(() => import('@/components/PosLiveStatus'), {
+    ssr: false,
+    loading: () => <div className="w-full h-[400px]" />
+});
 
 const LampContainer = dynamic(() => import('@/components/ui/lamp').then(mod => mod.LampContainer), {
     ssr: false,
@@ -92,6 +96,12 @@ const HomePage = async () => {
                     </AnimationContainer>
                 </div>
             </MaxWidthWrapper >
+
+
+            {/* Live POS Status Section */}
+            <MaxWidthWrapper className="py-4">
+                <PosLiveStatus />
+            </MaxWidthWrapper>
 
 
             <MaxWidthWrapper>
