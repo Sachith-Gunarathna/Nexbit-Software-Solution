@@ -46,8 +46,8 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="/services/ui-ux-design" className="hover:text-foreground transition-all duration-300">
-                                            UI/UX Design
+                                        <Link href="/services/grapics-design" className="hover:text-foreground transition-all duration-300">
+                                            Graphics Design
                                         </Link>
                                     </li>
                                 </ul>

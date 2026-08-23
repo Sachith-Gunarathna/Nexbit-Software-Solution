@@ -1,4 +1,5 @@
 import { Code2, PencilRuler, Rocket, WandSparklesIcon } from "lucide-react";
+import { title } from "process";
 
 export const DEFAULT_AVATAR_URL = "https://api.dicebear.com/8.x/initials/svg?backgroundType=gradientLinear&backgroundRotation=0,360&seed=";
 
@@ -221,11 +222,36 @@ export const Projects = [
         id: "custom-software-project"
     },
     {
-        title: "SPARK Chat Application",
+        title: "SPARK Mobile Chat Application",
         description: "A chat application designed to provide seamless communication with real-time messaging, multimedia sharing, and secure user authentication.",
         tags: ["Java", "React Native", "MySQL"],
         id: "mobile-application"
     },
+    {
+        title: "QucikBite Mobile Application",
+        description: "A modern mobile ordering application designed to connect customers with their favorite restaurants. It features a seamless menu browsing experience, easy order customization, and secure in-app payments, ensuring users can get their favorite meals delivered quickly and efficiently.",
+        tags: ["Java", "React Native", "MySQL"],
+        id: "mobile-application"
+    },
+
+    {
+        title: "EcoGrid Mobile Application",
+        description: "A comprehensive solution for electric vehicle charging, providing a seamless experience for EV owners to find and use charging stations.",
+        tags: ["Java", "React Native", "Firebase"],
+        id: "mobile-application"
+    },
+    {
+        title: "Aura Bloom Mobile Application",
+        description: "A salon management system designed to streamline salon operations, manage appointments, and provide real-time sales analytics.",
+        tags: ["Java", "React Native", "Firebase"],
+        id: "mobile-application"
+    },
+    {
+        title: "Nexcentauri Pos dashboard app",
+        description: "A mobile application designed to provide seamless access to the POS system's dashboard and reports.",
+        tags: ["Java", "React Native", "Firebase"],
+        id: "mobile-application"
+    }
 
 ] as const;
 
