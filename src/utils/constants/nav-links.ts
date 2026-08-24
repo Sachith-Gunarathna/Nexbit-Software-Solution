@@ -1,15 +1,15 @@
-import { 
-    Code2Icon, 
-    GlobeIcon, 
-    HelpCircleIcon, 
-    NewspaperIcon, 
-    PaletteIcon, 
-    Smartphone, 
+import {
+    Code2Icon,
+    GlobeIcon,
+    HelpCircleIcon,
+    NewspaperIcon,
+    PaletteIcon,
+    Smartphone,
 } from "lucide-react";
 
 export const NAV_LINKS = [
     {
-        title: "Services", 
+        title: "Services",
         href: "/services",
         menu: [
             {
@@ -31,15 +31,15 @@ export const NAV_LINKS = [
                 icon: Code2Icon,
             },
             {
-                title: "UI/UX Design",
-                tagline: "Modern, user-centric interfaces designed in Figma.",
-                href: "/services/design",
+                title: "Graphics Design",
+                tagline: "Create stunning graphics that capture attention.",
+                href: "/services/grapics-design",
                 icon: PaletteIcon,
             },
         ],
     },
     {
-        title: "About Us", 
+        title: "About Us",
         href: "/about",
     },
     {
@@ -53,7 +53,7 @@ export const NAV_LINKS = [
                 icon: NewspaperIcon,
             },
             {
-                title: "Support", 
+                title: "Support",
                 tagline: "Get technical support for your systems.",
                 href: "/support",
                 icon: HelpCircleIcon,
@@ -61,7 +61,7 @@ export const NAV_LINKS = [
         ]
     },
     {
-        title: "Contact", 
+        title: "Contact",
         href: "/contact",
     },
 ];

@@ -2,7 +2,7 @@ import { AnimationContainer, MaxWidthWrapper } from "@/components";
 import { Button } from "@/components/ui/button";
 import { LampContainer } from "@/components/ui/lamp";
 import MagicBadge from "@/components/ui/magic-badge";
-import { COMPANIES } from "@/utils";
+import { TECHSTACKS } from "@/utils";
 import { ArrowRightIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -53,11 +53,11 @@ const AnalyticsPage = () => {
                             </h2>
                             <div className="mt-8">
                                 <ul className="flex flex-wrap items-center gap-x-6 gap-y-6 md:gap-x-16 justify-center py-8">
-                                    {COMPANIES.map((company) => (
-                                        <li key={company.name}>
+                                    {TECHSTACKS.map((techstack) => (
+                                        <li key={techstack.name}>
                                             <Image
-                                                src={company.logo}
-                                                alt={company.name}
+                                                src={techstack.logo}
+                                                alt={techstack.name}
                                                 width={80}
                                                 height={80}
                                                 quality={100}

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import MagicBadge from "@/components/ui/magic-badge";
 import MagicCard from "@/components/ui/magic-card";
-import { COMPANIES, PROCESS } from "@/utils";
+import { TECHSTACKS, PROCESS } from "@/utils";
 import { REVIEWS } from "@/utils/constants/proto";
 import { currentUser } from "@clerk/nextjs/server";
 import { ArrowRightIcon, Facebook, Github, Linkedin, StarIcon } from "lucide-react";
@@ -16,9 +16,13 @@ import sunBurstAnimation from '../../../public/assets/Sun burst weather icon.jso
 
 import Lottie from 'lottie-react';
 import LottieWrapper from "@/components/LottieWrapper";
-import HeroText from "@/components/HeroText"; 
+import HeroText from "@/components/HeroText";
+const PosLiveStatus = dynamic(() => import('@/components/PosLiveStatus'), {
+    ssr: false,
+    loading: () => <div className="w-full h-[400px]" />
+});
 
-const LampContainer = dynamic(() => import('@/components/ui/lamp').then(mod => mod.LampContainer), { 
+const LampContainer = dynamic(() => import('@/components/ui/lamp').then(mod => mod.LampContainer), {
     ssr: false,
     loading: () => <div className="h-[400px] w-full bg-transparent" />
 });
@@ -29,16 +33,16 @@ const HomePage = async () => {
 
     return (
         <div className="overflow-x-hidden scrollbar-hide size-full">
-           
+
             <MaxWidthWrapper>
                 <div className="flex flex-col items-center justify-center w-full text-center bg-gradient-to-t from-background">
                     <AnimationContainer className="flex flex-col items-center justify-center w-full text-center">
-                        
-                        {/* 🌟 අලුත් අවුරුදු පහනේ Animation එක */}
-                        <div className="w-150 h-150 md:w-160 md:h-160 mb-6 drop-shadow-[0_0_15px_rgba(255,215,0,0.5)]">
-                            {/* මෙතනට LottieWrapper එක දානවා */}
+
+
+                        {/* <div className="w-150 h-150 md:w-160 md:h-160 mb-6 drop-shadow-[0_0_15px_rgba(255,215,0,0.5)]">
+                           
                             <LottieWrapper animationData={sunBurstAnimation} />
-                        </div>
+                        </div> */}
 
                         <button className="group relative grid overflow-hidden rounded-full px-4 py-1 shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset] transition-colors duration-200">
                             <span>
@@ -51,7 +55,7 @@ const HomePage = async () => {
                                 <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
                             </span>
                         </button>
-                    
+
                         <HeroText />
                         <p className="mb-12 text-lg tracking-tight text-muted-foreground md:text-xl text-balance">
                             Nexcentauri builds custom business systems for any requirement, helping businesses run faster, smarter, and more efficiently. We design complete digital solutions with supporting websites and mobile apps, all tailored to your exact needs.
@@ -93,7 +97,13 @@ const HomePage = async () => {
                 </div>
             </MaxWidthWrapper >
 
-           
+
+            {/* Live POS Status Section */}
+            <MaxWidthWrapper className="py-4">
+                <PosLiveStatus />
+            </MaxWidthWrapper>
+
+
             <MaxWidthWrapper>
                 <AnimationContainer delay={0.4}>
                     <div className="py-14">
@@ -103,11 +113,11 @@ const HomePage = async () => {
                             </h2>
                             <div className="mt-8">
                                 <ul className="flex flex-wrap items-center gap-x-6 gap-y-6 md:gap-x-16 justify-center">
-                                    {COMPANIES.map((company) => (
-                                        <li key={company.name}>
+                                    {TECHSTACKS.map((techstack) => (
+                                        <li key={techstack.name}>
                                             <Image
-                                                src={company.logo}
-                                                alt={company.name}
+                                                src={techstack.logo}
+                                                alt={techstack.name}
                                                 width={80}
                                                 height={80}
                                                 quality={100}
@@ -122,7 +132,7 @@ const HomePage = async () => {
                 </AnimationContainer>
             </MaxWidthWrapper>
 
-           
+
             <MaxWidthWrapper className="pt-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col w-full items-center lg:items-center justify-center py-8">
@@ -287,7 +297,7 @@ const HomePage = async () => {
                             <div className="mt-6">
                                 <Button>
                                     <Link href="./contact">
-                                    Start Your Project
+                                        Start Your Project
                                     </Link>
                                     <ArrowRightIcon className="w-4 h-4 ml-2" />
                                 </Button>
