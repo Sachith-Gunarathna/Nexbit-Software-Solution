@@ -167,7 +167,7 @@ export async function POST(req: Request) {
     <div class="receipt-container">
         
         <div class="header">
-            <img src="https://i.ibb.co/35tvp83S/Untitled-design.png" alt="EcoGrid">
+            <img src="https://i.ibb.co/rKPddpWP/echogrid.png" alt="EcoGrid">
         </div>
 
         <div class="amount-box">
