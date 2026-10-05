@@ -191,7 +191,7 @@ export default function VpnClientStats() {
                         <h1 className="text-3xl md:text-4xl font-black text-white mb-2 tracking-tight">
                             Dashboard <span className="text-blue-400">Overview</span>
                         </h1>
-                        <p className="text-white/40 text-sm">Welcome back, Sachith. Here's what's happening with your network.</p>
+                        <p className="text-white/40 text-sm">Welcome back, Sachith. Here&apos;s what&apos;s happening with your network.</p>
                     </div>
 
                     <div className="flex items-center gap-4 bg-[#0a0d14]/80 border border-white/10 rounded-2xl p-4 backdrop-blur-md shadow-xl w-max">
