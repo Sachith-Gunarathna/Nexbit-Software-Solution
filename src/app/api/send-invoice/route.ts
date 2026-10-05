@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resend = new Resend('re_82WmhYUV_PZbdKfqFW8FtBSUrvUgxwySW');
+const resend = new Resend('re_2gFQNKSL_KsvVqzWrMwbo29jN91d9gpeg');
 
 const corsHeaders = {
     'Access-Control-Allow-Origin': '*',
