@@ -213,7 +213,7 @@ export async function POST(req: Request) {
             
             <div class="powered-by-box">
                 <span class="powered-by-text">Powered by</span>
-                <img src="https://i.ibb.co/VpHWDjgX/Nexcentauri01.png" alt="Nexcentauri" width="140" style="display: block; margin: 0 auto; height: auto;">
+                <img src="https://i.ibb.co/jvWwRLDD/nexcentauri-logo.png alt="Nexcentauri" width="140" style="display: block; margin: 0 auto; height: auto;">
             </div>
         </div>
 
