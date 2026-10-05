@@ -141,42 +141,42 @@ export const TEAMMEMBERS = [
 export const REVIEWS = [
     {
         name: "Kasun Perera – Business Owner, Colombo (System)",
-        // username: "@michaelsmith",
+        
         avatar: "https://randomuser.me/api/portraits/men/1.jpg",
         rating: 5,
         review: "Nexcentuari built a custom system that perfectly matched our workflow. It reduced manual work and helped our team operate much more efficiently."
     },
     {
         name: "Nimali Jayasinghe – Business Owner, Kandy (System)",
-        // username: "@emilyjohnson",
+        
         avatar: "https://randomuser.me/api/portraits/women/2.jpg",
         rating: 4,
         review: "We had many process issues before. After implementing their system, tracking and reporting became simple and accurate. Very professional approach."
     },
     {
         name: "Nimeshi Silva – Business Owner, Galle (System)",
-        // username: "@danielwilliams",
+        
         avatar: "https://randomuser.me/api/portraits/women/2.jpg",
         rating: 5,
         review: "What we liked most was that the system was built specifically for us, not a template. It’s easy to use and ready to scale as our business grows."
     },
     {
         name: "Isuru Fernando – IT Coordinator, Colombo (System)",
-        // username: "@sophiabrown",
+        
         avatar: "https://randomuser.me/api/portraits/men/1.jpg",
         rating: 4,
         review: "Strong planning, clean UI, and reliable performance. Nexcentuari delivered exactly what was promised and supported us well after launch."
     },
     {
         name: "Sachini Weerasinghe – Marketing Executive, Negombo (Website)",
-        // username: "@jamestaylor",
+        
         avatar: "https://randomuser.me/api/portraits/women/3.jpg",
         rating: 5,
         review: "Our website now looks modern, fast, and professional. The UI/UX clearly represents our brand and improved customer engagement."
     },
     {
         name: "Ravindu Karunaratne – Founder, Kurunegala (Website)",
-        // username: "@oliviamartinez",
+        
         avatar: "https://randomuser.me/api/portraits/men/1.jpg",
         rating: 4,
         review: "Nexcentuari understood our vision and translated it into a clean, responsive website. The design quality exceeded our expectations."

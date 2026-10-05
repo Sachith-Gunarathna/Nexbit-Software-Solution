@@ -42,7 +42,7 @@ export function AnimatedBackground({
         ];
     }
 
-    // Adjust the generateSquares function to return objects with an id, x, and y
+    
     function generateSquares(count: number) {
         return Array.from({ length: count }, (_, i) => ({
             id: i,
@@ -50,7 +50,7 @@ export function AnimatedBackground({
         }));
     }
 
-    // Function to update a single square's position
+    
     const updateSquarePosition = (id: number) => {
         setSquares((currentSquares) =>
             currentSquares.map((sq) =>
@@ -64,15 +64,15 @@ export function AnimatedBackground({
         );
     };
 
-    // Update squares to animate in
+    
     useEffect(() => {
         if (dimensions.width && dimensions.height) {
             setSquares(generateSquares(numSquares));
         }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
+        
     }, [dimensions, numSquares]);
 
-    // Resize observer to update container dimensions
+    
     useEffect(() => {
         const container = containerRef.current;
         const resizeObserver = new ResizeObserver((entries) => {
@@ -141,7 +141,7 @@ export function AnimatedBackground({
                         y={y * height + 1}
                         fill="currentColor"
                         strokeWidth="0"
-                    // opacity={0.5}
+                    
                     />
                 ))}
             </svg>

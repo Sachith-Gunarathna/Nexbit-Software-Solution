@@ -6,7 +6,7 @@ import { RefObject, useEffect, useId, useState } from "react";
 
 export interface AnimatedBeamProps {
     className?: string;
-    containerRef: RefObject<HTMLElement>; // Container ref
+    containerRef: RefObject<HTMLElement>; 
     fromRef: RefObject<HTMLElement>;
     toRef: RefObject<HTMLElement>;
     curvature?: number;
@@ -30,7 +30,7 @@ export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
     fromRef,
     toRef,
     curvature = 0,
-    reverse = false, // Include the reverse prop
+    reverse = false, 
     duration = Math.random() * 3 + 4,
     delay = 0,
     pathColor = "gray",
@@ -47,7 +47,7 @@ export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
     const [pathD, setPathD] = useState("");
     const [svgDimensions, setSvgDimensions] = useState({ width: 0, height: 0 });
 
-    // Calculate the gradient coordinates based on the reverse prop
+    
     const gradientCoordinates = reverse
         ? {
             x1: ["90%", "-10%"],
@@ -89,23 +89,23 @@ export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
             }
         };
 
-        // Initialize ResizeObserver
+        
         const resizeObserver = new ResizeObserver((entries) => {
-            // For all entries, recalculate the path
+            
             for (let entry of entries) {
                 updatePath();
             }
         });
 
-        // Observe the container element
+        
         if (containerRef.current) {
             resizeObserver.observe(containerRef.current);
         }
 
-        // Call the updatePath initially to set the initial path
+        
         updatePath();
 
-        // Clean up the observer on component unmount
+        
         return () => {
             resizeObserver.disconnect();
         };
@@ -166,7 +166,7 @@ export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
                     transition={{
                         delay,
                         duration,
-                        ease: [0.16, 1, 0.3, 1], // https://easings.net/#easeOutExpo
+                        ease: [0.16, 1, 0.3, 1], 
                         repeat: Infinity,
                         repeatDelay: 0,
                     }}

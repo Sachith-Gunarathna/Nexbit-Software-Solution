@@ -3,9 +3,7 @@ import { subDays, startOfDay, format } from 'date-fns';
 
 export const revalidate = 0;
 
-// Firestore REST API — no Admin SDK needed (uses public API key)
-// Works when Firestore security rules allow read access to 'licenses' collection,
-// OR when Firebase Admin env vars are provided.
+
 const PROJECT_ID = 'nexcentauri-pos-activations';
 const FIRESTORE_REST_BASE = `https://firestore.googleapis.com/v1/projects/${PROJECT_ID}/databases/(default)/documents`;
 
@@ -38,7 +36,7 @@ function docToObject(doc: FirestoreDoc): Record<string, any> {
   for (const [key, value] of Object.entries(doc.fields || {})) {
     obj[key] = extractField(value);
   }
-  // Attach timestamps from the doc metadata if activatedAt is missing
+
   if (!obj.activatedAt && doc.createTime) {
     obj._createTime = new Date(doc.createTime);
   }
@@ -67,21 +65,21 @@ export async function GET() {
   try {
     const licenses = await fetchAllLicenses();
 
-    // Count active licenses (approved)
+
     const totalActive = licenses.filter(
       l => l.isActive === true && l.approvalStatus === 'approved'
     ).length;
     const totalPending = licenses.filter(l => l.approvalStatus === 'pending').length;
     const totalAll = licenses.length;
 
-    // Edition breakdown (active approved only)
+
     const editionCounts = {
       basic: licenses.filter(l => l.edition === 'basic' && l.isActive && l.approvalStatus === 'approved').length,
       premium: licenses.filter(l => l.edition === 'premium' && l.isActive && l.approvalStatus === 'approved').length,
       deluxe: licenses.filter(l => l.edition === 'deluxe' && l.isActive && l.approvalStatus === 'approved').length,
     };
 
-    // Shop category breakdown (active approved)
+
     const categories: Record<string, number> = {};
     licenses
       .filter(l => l.isActive && l.approvalStatus === 'approved')
@@ -90,7 +88,7 @@ export async function GET() {
         categories[cat] = (categories[cat] || 0) + 1;
       });
 
-    // Last 7 days activations — based on activatedAt or createdAt or _createTime
+
     const last7Days: { date: string; activations: number }[] = [];
     for (let i = 6; i >= 0; i--) {
       const day = startOfDay(subDays(new Date(), i));
@@ -98,8 +96,8 @@ export async function GET() {
       const count = licenses.filter(l => {
         const ts: Date | null =
           l.activatedAt instanceof Date ? l.activatedAt :
-          l.createdAt instanceof Date ? l.createdAt :
-          l._createTime instanceof Date ? l._createTime : null;
+            l.createdAt instanceof Date ? l.createdAt :
+              l._createTime instanceof Date ? l._createTime : null;
         return ts && ts >= day && ts < dayEnd;
       }).length;
       last7Days.push({ date: format(day, 'MMM d'), activations: count });

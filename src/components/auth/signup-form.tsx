@@ -56,7 +56,7 @@ const SignUpForm = () => {
         } catch (error: any) {
             console.log(JSON.stringify(error, null, 2));
 
-            switch (error.errors[0]?.code) {
+            switch (error?.errors?.[0]?.code) {
                 case "form_identifier_exists":
                     toast.error("This email is already registered. Please sign in.");
                     break;
@@ -105,9 +105,15 @@ const SignUpForm = () => {
                 toast.error("Invalid verification code");
                 setIsLoading(false);
             }
-        } catch (error) {
+        } catch (error: any) {
             console.error('Error:', JSON.stringify(error, null, 2));
-            toast.error("Something went wrong. Please try again later.");
+            const code = error?.errors?.[0]?.code;
+            if (code === "verification_already_verified") {
+                toast.success("Email already verified! Please sign in.");
+                router.push("/auth/sign-in");
+            } else {
+                toast.error("Something went wrong. Please try again later.");
+            }
         } finally {
             setIsLoading(false);
         }

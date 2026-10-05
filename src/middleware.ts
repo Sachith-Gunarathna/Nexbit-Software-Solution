@@ -6,12 +6,13 @@ export default clerkMiddleware((auth, req) => {
 
     const { userId } = auth();
 
-    // Protect /dashboard and sub-routes
-    if (!userId && url.startsWith("/dashboard")) {
-        return NextResponse.redirect(new URL("/auth/sign-in", req.url));
-    }
+    
+    
+    
+    
+    
 
-    // Redirect authenticated users away from auth routes
+    
     if (userId && (url.startsWith("/auth/sign-in") || url.startsWith("/auth/sign-up"))) {
         return NextResponse.redirect(new URL("/dashboard", req.url));
     }

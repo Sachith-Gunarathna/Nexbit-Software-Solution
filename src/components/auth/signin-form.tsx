@@ -37,7 +37,6 @@ const SignInForm = () => {
             const signInAttempt = await signIn.create({
                 identifier: email,
                 password,
-                redirectUrl: "/auth/auth-callback",
             });
 
             if (signInAttempt.status === "complete") {
@@ -51,7 +50,7 @@ const SignInForm = () => {
                 setIsLoading(false);
             }
         } catch (error: any) {
-            switch (error.errors[0]?.code) {
+            switch (error?.errors?.[0]?.code) {
                 case "form_identifier_not_found":
                     toast.error("This email is not registered. Please sign up first.");
                     break;

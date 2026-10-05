@@ -3,24 +3,24 @@
 import { motion } from "framer-motion";
 
 export default function HeroText() {
-  // Animation එකේ වේගය සහ රටාව (Settings)
+  
   const container = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1, // එක වචනයකට පස්සේ ඊළඟ වචනය එන්න තියෙන පරතරය
-        delayChildren: 0.2,   // සයිට් එක ලෝඩ් වෙලා තත්පර 0.2කින් animation එක පටන් ගන්නවා
+        staggerChildren: 0.1, 
+        delayChildren: 0.2,   
       },
     },
   };
 
   const wordAnimation = {
-    hidden: { opacity: 0, y: 30 }, // මුලින් පේන්නේ නෑ, ටිකක් පහළින් තියෙන්නේ
+    hidden: { opacity: 0, y: 30 }, 
     visible: {
       opacity: 1,
-      y: 0, // උඩට එනවා
-      transition: { duration: 0.6, ease: [0.2, 0.65, 0.3, 0.9] }, // මාරම Smooth විදිහට උඩට එන්න
+      y: 0, 
+      transition: { duration: 0.6, ease: [0.2, 0.65, 0.3, 0.9] }, 
     },
   };
 
@@ -40,7 +40,7 @@ export default function HeroText() {
         </motion.span>
       ))}
       
-      {/* රෝස/දම් පාටින් තියෙන කොටස */}
+      
       <motion.span variants={wordAnimation} className="inline-block">
         <span className="text-transparent bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text">
           {gradientPart}
